@@ -1,0 +1,17 @@
+{
+  "exported_date": "2026-10-12",
+  "origin": "verified published 0.5.14 editorial return",
+  "published_source_hashes": {
+    "base": "86c7650c5516c04f8e9674ac80baed0ded1586a1d75e03bc51b8ae7dc0da2e20",
+    "mod": "a3119ad4eb2f75e93e562435e6672e44fa69fde1c6120045b98522d3b58259db",
+    "gff": "3e0cb7bfe3ba6b1a95a4566ca3cfc0a0db195c39f6834f615b3480274b17afe8"
+  },
+  "published_map_sha256": "2ef464f8b349a641e24baea7f9c5e3bb4b2e6859f87eb02dcd8659b981cd3666",
+  "full_english_sources_included": false,
+  "unpublished_working_tables_differ": {
+    "base": true,
+    "mod": true,
+    "gff": true
+  },
+  "personal_saves_or_logs_included": false
+}

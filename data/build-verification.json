@@ -1,0 +1,18 @@
+{
+  "verified_date": "2026-10-12",
+  "public_source_rebuild": {
+    "generated_resource_files": 224,
+    "matches_published_resource_hashes": 224,
+    "mismatches": 0,
+    "tlk_records_verified": {
+      "base": 136329,
+      "mod": 136375
+    },
+    "gff_locations_verified": 7022,
+    "gui_resources_verified": 34,
+    "font_aliases_verified": 35
+  },
+  "regression_tests": 10,
+  "gameplay_test_during_export": false,
+  "personal_saves_or_logs_included": false
+}

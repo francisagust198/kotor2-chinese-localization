@@ -1,0 +1,42 @@
+{
+  "version": "0.5.14-subtitle150",
+  "codec": "column16_gray4_baseline_v2_altstep",
+  "chinese_item": "3816191703",
+  "english_mod_item": "1402798020",
+  "wide_item": "3816813166",
+  "compatibility_item": "3816551034",
+  "final_entries": 153698,
+  "profiles": {
+    "base": 74024,
+    "mod": 74071,
+    "gff": 5603
+  },
+  "statuses": {
+    "base": {
+      "reviewed": 65200,
+      "keep_original": 8263,
+      "needs_context": 4,
+      "translated": 557
+    },
+    "mod": {
+      "reviewed": 63399,
+      "needs_context": 6,
+      "keep_original": 8306,
+      "translated": 2360
+    },
+    "gff": {
+      "reviewed": 1026,
+      "translated": 4049,
+      "keep_original": 525,
+      "needs_context": 3
+    }
+  },
+  "expected_tlk_bytes": {
+    "base": 346454943,
+    "mod": 346910647
+  },
+  "game_exe_sha256": "6a522e71631dcee93467bd2010f3b23d9145326e1e2e89305f13ab104dbbffef",
+  "current_map_sha256": "37c50e6f175e29f5352fc80125af62ea4d869670c559b0e0a360bf6ab2f402a4",
+  "gameplay_subtitle_validation": "pending",
+  "font_aliases": 35
+}

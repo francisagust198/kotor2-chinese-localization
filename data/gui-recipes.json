@@ -1,0 +1,482 @@
+{
+  "abchrgen_p.gui": {
+    "source_sha256": "3be40162f73b370b926dcf4d4ba2f50899c97368598bd9ce3a2f4cb6ed5fc21b",
+    "output_sha256": "b2026f4febe8a03cf392669cebf0467b7498760c91bd713fc5922fb2fdfd1895",
+    "edits": [
+      {
+        "struct": 159,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "abilities_p.gui": {
+    "source_sha256": "8d27ae47197df330619e40b8e900d106644a8ae2feb207b5c20f8a2dce3eedbb",
+    "output_sha256": "08778f25539a9e8f67ef785e30d04804eeb972a80eab36ffa627a9c7e9e7e760",
+    "edits": [
+      {
+        "struct": 9,
+        "field": "FONT",
+        "before": "dialogfont16x16",
+        "after": "chs_body16"
+      },
+      {
+        "struct": 37,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "chemical_p.gui": {
+    "source_sha256": "4271fe020e088d0f73a9e840cb3d1e0f3f156d8edc745abd5b0bf52acbf77463",
+    "output_sha256": "b30a57bdddfd97e4e89d5c2fd80207ce7694564f72c70b5c0b308f99c717736b",
+    "edits": [
+      {
+        "struct": 13,
+        "field": "FONT",
+        "before": "dialogfont16x16",
+        "after": "chs_body16"
+      },
+      {
+        "struct": 29,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "component_p.gui": {
+    "source_sha256": "0a809e5e8d380916ff4b40a364ae49a4d26682fcd7246ec5fd099002a4b2893b",
+    "output_sha256": "98b21a9446c687f7d6c45038fee9ad5ab8fffb26e09b7ddd902fbd8d6ce4bf58",
+    "edits": [
+      {
+        "struct": 13,
+        "field": "FONT",
+        "before": "dialogfont16x16",
+        "after": "chs_body16"
+      },
+      {
+        "struct": 29,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "computer_p.gui": {
+    "source_sha256": "0c8f9673f36f2192531b8dbb8c85dba0039a5f565dca0563a5afb12e11e32273",
+    "output_sha256": "e30303c4c4c6caa9812832fc18cebd6af14b15b6f70f08f3b310b1dcfdb5303e",
+    "edits": [
+      {
+        "struct": 41,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "confirm_p.gui": {
+    "source_sha256": "90ec11764bf981670f964b19c48f97311e91d97d68c20e29861e86f0f5545727",
+    "output_sha256": "6fa31b2220f2451b35881b4f1a930319a6007162dccb1ae872986bcfa034371f",
+    "edits": [
+      {
+        "struct": 9,
+        "field": "FONT",
+        "before": "dialogfont16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "credits_p.gui": {
+    "source_sha256": "0cf5e046ce1e853f4bd747df3fe9056f1497aaef22d05aa9a30658b8907a83e2",
+    "output_sha256": "d024ef9c0bc8a87557202872d0d35dcc6dd5283da08aeb95c640c0b07591624d",
+    "edits": [
+      {
+        "struct": 9,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "datapad_p.gui": {
+    "source_sha256": "eed941ebea5a695e02adfb75d584a2978722efe8011fd1e47e0d427ceec23c81",
+    "output_sha256": "81c548e0d870f65d32c71a3b09d4b812c7aea5df17d01ec5d4bb4a3faf686cd4",
+    "edits": [
+      {
+        "struct": 9,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "dialog_p.gui": {
+    "source_sha256": "d17ee8ceaba7f4c3cfc4afd3ebd89cfdfd4a34cb65348b124042e997590c2cc7",
+    "output_sha256": "dd74932de4c1ef3473847d430682f563ef3ee7a5bfa4d0c13ffd671965f24b9b",
+    "edits": [
+      {
+        "struct": 1,
+        "field": "TOP",
+        "before": 378,
+        "after": 328
+      },
+      {
+        "struct": 1,
+        "field": "HEIGHT",
+        "before": 100,
+        "after": 150
+      },
+      {
+        "struct": 4,
+        "field": "HEIGHT",
+        "before": 100,
+        "after": 150
+      },
+      {
+        "struct": 8,
+        "field": "TOP",
+        "before": 0,
+        "after": 50
+      },
+      {
+        "struct": 13,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      },
+      {
+        "struct": 6,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_sub24"
+      }
+    ]
+  },
+  "equip_p.gui": {
+    "source_sha256": "58ae8acb47eef8bd34f5eb4d93c147ee12a7f22fbd983a0c70f418b4f2ecb4de",
+    "output_sha256": "bce9745466ba01d17070745c223c54c4a69d706708646886a2e9fadb4b989bb5",
+    "edits": [
+      {
+        "struct": 9,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "ftchrgen_p.gui": {
+    "source_sha256": "43236b07cd12ef5ca0cc506396815474173d9f4b2d060ddf28d0af0beffc916d",
+    "output_sha256": "70c6d4bebc2e1c1c7c3434ea143367fcd08209538ac60c9bb83a3855a9005c05",
+    "edits": [
+      {
+        "struct": 25,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "inventory_p.gui": {
+    "source_sha256": "ca60ae36e6fc546fb0eacac4b297236301975049488e3e47dc0c0728eeff92fc",
+    "output_sha256": "d01b94acd18b694cab438a97347a7c0908c761333e30e517cd183e27276b7abd",
+    "edits": [
+      {
+        "struct": 116,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "journal_p.gui": {
+    "source_sha256": "5c41b62be215c95d1d069c602942bf3d751d9212415903d476d1823a575d1e03",
+    "output_sha256": "cb9d19e39de1d480bb3642318138db62bfdc5e7d5836bf949c9c4e668d6bce3c",
+    "edits": [
+      {
+        "struct": 26,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "messages_p.gui": {
+    "source_sha256": "65fa27e408a9343167c39684b09fb66ef57251215a51dc3ab074a93ecaa3be38",
+    "output_sha256": "cfa83326963db1bb119813d8d191d72abba664a620fd756bfc99552de08a7582",
+    "edits": [
+      {
+        "struct": 13,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      },
+      {
+        "struct": 30,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      },
+      {
+        "struct": 97,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      },
+      {
+        "struct": 110,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      },
+      {
+        "struct": 123,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "optautopause_p.gui": {
+    "source_sha256": "b700bd7f9607f1440a34e7c4f0df4795f47ba72aad0986fc641a2be472500fd6",
+    "output_sha256": "bb4d10272edbd13e0c6fd5ab52bea72c814c4e41c6dd221b45a6cd25b123935b",
+    "edits": [
+      {
+        "struct": 41,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "optfeedback_p.gui": {
+    "source_sha256": "2a6404aaf672b601dc72c137aab8dc927bc993d16bad1f426f2f994ea2e6adb5",
+    "output_sha256": "3e744cddb332c266cc9074dd1f69224cdcf622e15b249ed303c417717ccc8bd5",
+    "edits": [
+      {
+        "struct": 13,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "optgameplay_p.gui": {
+    "source_sha256": "9aa29b81b5f600db966ea9aed80a78fb262f064d226cd9e4bd1e9b980fd8e0a6",
+    "output_sha256": "a8fdc1c67c5a073bb0b6f9dcc38491724f37fca7d334b0f123ab09bad60260ab",
+    "edits": [
+      {
+        "struct": 51,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "optgraphicadv_p.gui": {
+    "source_sha256": "d32227849f02d156141040ee2ba4cc9924c37a59c7c7969678b2e58c12a54320",
+    "output_sha256": "4aa690ab377f9a341f51cbff43ce205dfc029f7a76ba42e0b976a7010b9e8f06",
+    "edits": [
+      {
+        "struct": 17,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "optgraphics_p.gui": {
+    "source_sha256": "d9450c11636179352927f3d8c3f3a3b0d95e81439f0f9a3e6e5a157d951694e2",
+    "output_sha256": "04082975e7de8b5c31dfdb8076f001dc17ec715ebb18315c11101f55dee6fbe0",
+    "edits": [
+      {
+        "struct": 27,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "optionsingame_p.gui": {
+    "source_sha256": "f89f3ca2a47faf0703c9ba4388d396b28bd36bfc6ae70ebb2c1f108233da856c",
+    "output_sha256": "ee8aabf7a19a574829d7b2d0818af88d2f12139188ca24c3b58ff40187c7b6c4",
+    "edits": [
+      {
+        "struct": 87,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "optionsmain_p.gui": {
+    "source_sha256": "b60c4b32d03790a4e9863241a6bcd804ca189eb13c2edcd00840e9b62c1bc582",
+    "output_sha256": "d7925391d49b1aa0fb1aec1cb0c2e8b2183bda9430b750ca9bf71ee02216330b",
+    "edits": [
+      {
+        "struct": 61,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "optmouse_p.gui": {
+    "source_sha256": "a444d98f6b6094582b0e782d1ec465b05fb2d0072730c60c7c5bfecd035b90e9",
+    "output_sha256": "403d3157391ef756c439ab84bfcd34f908c410da8a56798c047c019c8909b364",
+    "edits": [
+      {
+        "struct": 17,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "optsoundadv_p.gui": {
+    "source_sha256": "bf1f9fa34cade230ac2a963fbf7c276c737ed5287e362965dcce0ca37acad7eb",
+    "output_sha256": "6b673e7beb10cda42935061818028c3f21a34909ab571c1213208d10566b5cf6",
+    "edits": [
+      {
+        "struct": 17,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "optsound_p.gui": {
+    "source_sha256": "a6ab2a3696fc033d471e1aad52aa2db8f90c9c66fbecc6dfe0dd18347b398a66",
+    "output_sha256": "486c6cbc3885c867b67dbaa5a6a417cffb7c121f183febb7ec71230057c0b29c",
+    "edits": [
+      {
+        "struct": 57,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "pwrlvlup_p.gui": {
+    "source_sha256": "e63f8237580643bdf13041920642f350196bc30c05fafb29989147ab85e62324",
+    "output_sha256": "ca66c8ba70bc838bb3aab8ef8234faf60f6595e34a4ea340e8303d1ecb3b1a52",
+    "edits": [
+      {
+        "struct": 21,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "qorcpnl_p.gui": {
+    "source_sha256": "9982f65e09d51b979bac731e799b1b9c443e9be6dcb1f1ad766c1ed23836d134",
+    "output_sha256": "12a1d54ea4b79386773d4db1569257e56887bcda358452597f8deb121f4e2ccd",
+    "edits": [
+      {
+        "struct": 15,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "questitem_p.gui": {
+    "source_sha256": "9f540e881238d55bec2bbaf91a13d408631657895c1bdd5ff8de762f36c45123",
+    "output_sha256": "c5611c28282b673673043dc842106e2513365a28c14fee5c05c8864cb5a923dd",
+    "edits": [
+      {
+        "struct": 9,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "scriptselect_p.gui": {
+    "source_sha256": "5c2c2f0ad76a608fa1249813d7819d4919000b345d4b575065e56b08f0e06eb0",
+    "output_sha256": "84ab8b349be2a745af4ae06e50c8bcf35bfa5fb010dd4496d0ee51e57ad572a8",
+    "edits": [
+      {
+        "struct": 24,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "skchrgen_p.gui": {
+    "source_sha256": "46b6438d717e0b566a17f6a7f9822db3d649b716601168b35f17522b2067ac43",
+    "output_sha256": "cbac4a6e7bf5dfc2dc09b27df0a343a4f661542ea9adac16edd7d3496f949f85",
+    "edits": [
+      {
+        "struct": 205,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "store_p.gui": {
+    "source_sha256": "79fb05f2b01443aba910a6beec16dd3af8dab7cd70a05174611a883c40629675",
+    "output_sha256": "fe75b1241a04bf47d8e0ce33988a3ab5e6b285926c423be238e1f8b5ecce5e29",
+    "edits": [
+      {
+        "struct": 26,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "swoopup_p.gui": {
+    "source_sha256": "e10b995435bc5332321adcdfec9efcffc139f3bf1646e68dedd14201a0e19c93",
+    "output_sha256": "a6000545559af830eaef4f96cc5d165b6d5654a10b0af5559f274636adcd7f6b",
+    "edits": [
+      {
+        "struct": 17,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "upgradeitems_p.gui": {
+    "source_sha256": "7bf2c0803222210ddf73c93bc8c8fa4794199a21d56ffc7af09524b015669b53",
+    "output_sha256": "d155674183cc908b0c989f5f8b1755f53254293ca14123b5f4f393f7f67eabb9",
+    "edits": [
+      {
+        "struct": 22,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "upgradesel_p.gui": {
+    "source_sha256": "e4dbd16e9641f62a6bd3c2bda32f0e56a36d9c83aa91502c1f36e66c255971d9",
+    "output_sha256": "018dd62fb725c28d55d3528b87857db9e5c3208cc9c9ab4c553a0da041ef5ddf",
+    "edits": [
+      {
+        "struct": 55,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  },
+  "upgrade_p.gui": {
+    "source_sha256": "37233f6d1e765a49b69c4730685af646d4a6cfeb1d77a46adabde8992b1bbf78",
+    "output_sha256": "7da3b6a10f94fcf44f9fd480949c043912c0c1f85d6128e06a0a45eec3d678f1",
+    "edits": [
+      {
+        "struct": 144,
+        "field": "FONT",
+        "before": "fnt_d16x16",
+        "after": "chs_body16"
+      }
+    ]
+  }
+}

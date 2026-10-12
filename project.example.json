@@ -1,0 +1,8 @@
+{
+  "game": "PATH_TO_STEAM_KOTOR2",
+  "workshop": "PATH_TO_STEAM_WORKSHOP_CONTENT_208580",
+  "current_character_map": "data/current-map.json",
+  "current_workshop_item": "3816191703",
+  "legacy_base": "NOT_USED",
+  "legacy_tslrcm": "NOT_USED"
+}
