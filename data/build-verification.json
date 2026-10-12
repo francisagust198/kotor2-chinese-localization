@@ -11,7 +11,7 @@
     "gff_locations_verified": 7022,
     "font_aliases_verified": 35
   },
-  "regression_tests": 10,
+  "regression_tests": 12,
   "full_gameplay_test": false,
   "manual_full_dialogue_review": false
 }

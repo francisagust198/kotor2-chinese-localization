@@ -1,6 +1,24 @@
-import collections,struct,unittest
+import collections,struct,unittest,gzip,json,tempfile
+from pathlib import Path
 from unittest.mock import patch
-from save_cache_converter import Converter,GFF,digest,convert
+from save_cache_converter import Converter,GFF,digest,convert,load_catalog
+
+class CatalogSelectionRegression(unittest.TestCase):
+    def test_workshop_catalog_overrides_bundled_catalog(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            app=Path(tmp)/'app';bundle=Path(tmp)/'bundle';app.mkdir();bundle.mkdir()
+            for folder,version in [(app,'current'),(bundle,'old')]:
+                with gzip.open(folder/'save-cache-catalog.json.gz','wt',encoding='utf-8') as f:json.dump({'version':version},f)
+            with patch('save_cache_converter.application_dir',return_value=app),patch('save_cache_converter.resource_dir',return_value=bundle):
+                self.assertEqual(load_catalog()['version'],'current')
+                (app/'save-cache-catalog.json.gz').unlink()
+                self.assertEqual(load_catalog()['version'],'old')
+
+    def test_explicit_catalog_is_respected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            explicit=Path(tmp)/'chosen.json.gz'
+            with gzip.open(explicit,'wt',encoding='utf-8') as f:json.dump({'version':'chosen'},f)
+            self.assertEqual(load_catalog(explicit)['version'],'chosen')
 def local(ref,text,lang=0):
     body=struct.pack('<II',ref,1)+struct.pack('<II',lang,len(text))+text
     return struct.pack('<I',len(body))+body
