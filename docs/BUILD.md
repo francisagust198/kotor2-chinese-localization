@@ -37,3 +37,7 @@ zig cc -target x86-windows-gnu -Os -shared -s '-DWORKSHOP_ID=L"3816551034"' nati
 ```
 
 此 DLL不修改 EXE，仅允许匹配签名的补丁。中文消息兼容通过 `[Chinese Text Fix] MessageBufferFix=1` 启用。高帧负载由订阅提供；源码的签名表不是完整的上游运行库。修改 DLL 后必须重新测试，不能用编译成功替代运行验收。
+
+0.1.2 另提供 `[Chinese Text Fix] FontScaleFix=1`。它只修正本项目组合字体的累计宽度计量，保留普通非组合字体的原转换；用于改善非整数缩放下的居中与换行。两个开关可分别启用。
+
+字体原生测试可编译 `native/font_scale_selftest.c` 为 x86 Windows EXE 并运行。包含 6 种比例、576 个完整字形边界、x87 调用约定、重复扫描、普通字体回退和签名冲突/内存保护检查；这些离线结果不替代游戏内验证。

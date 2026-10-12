@@ -441,8 +441,9 @@ __declspec(dllexport) int __cdecl HfpTestRollback(void) { return Rollback() && P
 #endif
 #include <stdint.h>
 #include "message_buffer_fix.h"
+#include "font_scale_fix.h"
 BOOL WINAPI DllMain(HINSTANCE module, DWORD reason, void* reserved) {
     (void)reserved;
-    if (reason == DLL_PROCESS_ATTACH) { selfModule = module; DisableThreadLibraryCalls(module); InitializeMessageBufferFix(); }
+    if (reason == DLL_PROCESS_ATTACH) { selfModule = module; DisableThreadLibraryCalls(module); InitializeMessageBufferFix(); InitializeFontScaleFix(); }
     return TRUE;
 }

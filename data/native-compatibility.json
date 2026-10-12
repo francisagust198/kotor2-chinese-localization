@@ -1,0 +1,17 @@
+{
+  "version": "0.1.2",
+  "dll_sha256": "5de5cb950b690cb2636099f0a8fc27e20154af73c2173ec7b199da91a9386b0a",
+  "font_call_sites": [
+    "0x47b020",
+    "0x47b238",
+    "0x47b4e2"
+  ],
+  "font_selftest": "PASS: 576 complete glyph boundaries at 6 scales, x87 wrapper ABI, restart, ASCII fallback, 3-site preflight/conflict and page restoration.",
+  "runtime_validation": "User confirms 2560x1440 main menu centering and ability skill-description wrapping normal",
+  "message_buffer_patches": 126,
+  "highfps_hooks": 29,
+  "exe_modified": false,
+  "text_or_save_modified": false,
+  "message_buffer_toggle": "[Chinese Text Fix] MessageBufferFix=1",
+  "font_scale_toggle": "[Chinese Text Fix] FontScaleFix=1"
+}
