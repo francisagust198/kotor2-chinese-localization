@@ -1,5 +1,5 @@
 {
-  "version": "0.5.14-subtitle150",
+  "version": "0.5.15-dialogue-reply-position",
   "codec": "column16_gray4_baseline_v2_altstep",
   "chinese_item": "3816191703",
   "english_mod_item": "1402798020",
@@ -38,5 +38,7 @@
   "game_exe_sha256": "6a522e71631dcee93467bd2010f3b23d9145326e1e2e89305f13ab104dbbffef",
   "current_map_sha256": "37c50e6f175e29f5352fc80125af62ea4d869670c559b0e0a360bf6ab2f402a4",
   "gameplay_subtitle_validation": "pending",
-  "font_aliases": 35
+  "font_aliases": 35,
+  "reply_position_validation": "Replies moved up; final reply accurately highlighted and selected",
+  "reply_position_test_resolution": "1920x1080"
 }

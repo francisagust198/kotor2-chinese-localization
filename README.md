@@ -46,7 +46,7 @@ python tools/build_public_mod.py --output build/chs
 
 ## 当前状态
 
-公开资料对应汉化 **0.5.14-subtitle150**，使用 16 列四级灰度组合字形和兼容的交替透明步进，过程动画及对话字幕目标字号为 1.5 倍。字体与文本需要同时更新。
+公开资料对应汉化 **0.5.15-dialogue-reply-position**，使用 16 列四级灰度组合字形和兼容的交替透明步进，过程动画及对话字幕目标字号为 1.5 倍。字体与文本需要同时更新。
 
 原生兼容组件 **0.1.2** 新增字体缩放计量修复。若在 2560×1440 下出现菜单偏移或说明挤成窄列，请更新该组件的根目录 DLL，并在 `[Chinese Text Fix]` 中设置 `FontScaleFix=1`。2K 主菜单与技能说明已确认恢复正常；其他分辨率仍需实机复核。
 
@@ -59,3 +59,5 @@ python tools/build_public_mod.py --output build/chs
 感谢 TSLRCM 与 M4-78EP 制作团队。高帧修复基于 D3M0 / High FPS Fixes 1.0.1，运行库来自 Lane Dibello 与 Kotor Patch Manager 贡献者。字体采用阿里巴巴普惠体，译名参考来源见 `glossary/sources.jsonl`。
 
 感谢3DM汉化团队，本MOD在本地化工作中借鉴和参考了原3DM汉化
+
+0.5.15 将对话回复区域上移一行，改善选项较多时末项无法用鼠标选择的问题。1080p 下已确认末项可准确高亮和点击；字号、行距及 1.5 倍字幕保持。其他分辨率仍需实机复核。

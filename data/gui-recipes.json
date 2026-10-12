@@ -115,7 +115,7 @@
   },
   "dialog_p.gui": {
     "source_sha256": "d17ee8ceaba7f4c3cfc4afd3ebd89cfdfd4a34cb65348b124042e997590c2cc7",
-    "output_sha256": "dd74932de4c1ef3473847d430682f563ef3ee7a5bfa4d0c13ffd671965f24b9b",
+    "output_sha256": "3b941027faf9202250869550e16d74e46a56831e1511d1abe3fb0be01b06a7f4",
     "edits": [
       {
         "struct": 1,
@@ -139,7 +139,7 @@
         "struct": 8,
         "field": "TOP",
         "before": 0,
-        "after": 50
+        "after": 26
       },
       {
         "struct": 13,

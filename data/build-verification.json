@@ -14,5 +14,14 @@
   },
   "regression_tests": 10,
   "gameplay_test_during_export": false,
-  "personal_saves_or_logs_included": false
+  "personal_saves_or_logs_included": false,
+  "gui_only_followup": {
+    "version": "0.5.15-dialogue-reply-position",
+    "changed_gui_resources": 1,
+    "recipe_rebuild_hash_matches": true,
+    "other_subscription_files_unchanged": 229,
+    "subscription_files_verified": 230,
+    "runtime_scope": "User confirms final reply selectable at 1080p",
+    "full_source_rebuild_repeated": false
+  }
 }
