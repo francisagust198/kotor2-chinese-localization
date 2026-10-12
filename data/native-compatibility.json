@@ -1,6 +1,6 @@
 {
-  "version": "0.1.2",
-  "dll_sha256": "5de5cb950b690cb2636099f0a8fc27e20154af73c2173ec7b199da91a9386b0a",
+  "version": "0.1.3",
+  "dll_sha256": "b2ed42bb95ff7b02bddcda5c55a130007d36bed06c3c8da5759827da90ec2636",
   "font_call_sites": [
     "0x47b020",
     "0x47b238",
@@ -12,6 +12,28 @@
   "highfps_hooks": 29,
   "exe_modified": false,
   "text_or_save_modified": false,
-  "message_buffer_toggle": "[Chinese Text Fix] MessageBufferFix=1",
-  "font_scale_toggle": "[Chinese Text Fix] FontScaleFix=1"
+  "default_enabled_options": {
+    "MessageBufferFix": {
+      "default": 1,
+      "absent_section_absent_key_explicit_zero_explicit_one": [
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    "FontScaleFix": {
+      "default": 1,
+      "absent_section_absent_key_explicit_zero_explicit_one": [
+        1,
+        1,
+        0,
+        1
+      ]
+    }
+  },
+  "native_selftests": [
+    "PASS: all 126 signatures; conflict leaves image untouched; repeated patch rejected; page protection restored.",
+    "PASS: 576 complete glyph boundaries at 6 scales, x87 wrapper ABI, restart, ASCII fallback, 3-site preflight/conflict and page restoration."
+  ]
 }

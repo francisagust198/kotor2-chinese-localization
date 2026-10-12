@@ -44,8 +44,9 @@ static void InitializeMessageBufferFix(void) {
     slash[1]=0;wchar_t ini[MAX_PATH],log[MAX_PATH];
     if(wcslen(gamePath)+32>=MAX_PATH) return;
     wcscpy(ini,gamePath);wcscat(ini,L"swkotor2.ini");
-    /* Explicit toggle; default off. Applies before the two native allocations. */
-    if(!GetPrivateProfileIntW(L"Chinese Text Fix",L"MessageBufferFix",0,ini)) return;
+    /* Applies before the two native allocations. */
+    /* Enabled when absent; an explicit 0 remains an opt-out. */
+    if(!GetPrivateProfileIntW(L"Chinese Text Fix",L"MessageBufferFix",1,ini)) return;
     int status=ApplyMessagePatchToImage((BYTE*)GetModuleHandleW(NULL));
     wcscpy(log,gamePath);wcscat(log,L"MessageBuffer-fix.log");
     HANDLE f=CreateFileW(log,FILE_APPEND_DATA,FILE_SHARE_READ|FILE_SHARE_WRITE,NULL,OPEN_ALWAYS,FILE_ATTRIBUTE_NORMAL,NULL);

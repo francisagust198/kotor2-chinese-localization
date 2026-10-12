@@ -97,7 +97,8 @@ static void InitializeFontScaleFix(void) {
     wchar_t* slash=wcsrchr(path,L'\\');if(!slash || _wcsicmp(slash+1,L"swkotor2.exe"))return;slash[1]=0;
     if(wcslen(path)+32>=MAX_PATH)return;
     wcscpy(ini,path);wcscat(ini,L"swkotor2.ini");
-    if(!GetPrivateProfileIntW(L"Chinese Text Fix",L"FontScaleFix",0,ini))return;
+    /* Enabled when absent; an explicit 0 remains an opt-out. */
+    if(!GetPrivateProfileIntW(L"Chinese Text Fix",L"FontScaleFix",1,ini))return;
     int status=ApplyFontScaleFix((BYTE*)GetModuleHandleW(NULL));
     wcscpy(log,path);wcscat(log,L"FontScale-fix.log");
     HANDLE file=CreateFileW(log,FILE_APPEND_DATA,FILE_SHARE_READ|FILE_SHARE_WRITE,NULL,OPEN_ALWAYS,FILE_ATTRIBUTE_NORMAL,NULL);

@@ -36,8 +36,8 @@ python tools/save_cache_converter.py
 zig cc -target x86-windows-gnu -Os -shared -s '-DWORKSHOP_ID=L"3816551034"' native/highfps_loader.c native/highfps_loader.def -lbcrypt -luser32 -o build/dinput8.dll
 ```
 
-此 DLL不修改 EXE，仅允许匹配签名的补丁。中文消息兼容通过 `[Chinese Text Fix] MessageBufferFix=1` 启用。高帧负载由订阅提供；源码的签名表不是完整的上游运行库。修改 DLL 后必须重新测试，不能用编译成功替代运行验收。
+此 DLL不修改 EXE，仅允许匹配签名的补丁。0.1.3 起中文消息兼容默认开启；`[Chinese Text Fix] MessageBufferFix=0` 可关闭。高帧负载由订阅提供；源码的签名表不是完整的上游运行库。修改 DLL 后必须重新测试，不能用编译成功替代运行验收。
 
-0.1.2 另提供 `[Chinese Text Fix] FontScaleFix=1`。它只修正本项目组合字体的累计宽度计量，保留普通非组合字体的原转换；用于改善非整数缩放下的居中与换行。两个开关可分别启用。
+0.1.2 另提供 `[Chinese Text Fix] FontScaleFix=1`。它只修正本项目组合字体的累计宽度计量，保留普通非组合字体的原转换；用于改善非整数缩放下的居中与换行。0.1.3 起两个开关均默认开启，无需写入 INI；显式设置为 0 可分别关闭，设为 1 可重新开启。
 
 字体原生测试可编译 `native/font_scale_selftest.c` 为 x86 Windows EXE 并运行。包含 6 种比例、576 个完整字形边界、x87 调用约定、重复扫描、普通字体回退和签名冲突/内存保护检查；这些离线结果不替代游戏内验证。
