@@ -3,6 +3,7 @@
 《星球大战：旧共和国武士Ⅱ》Steam Windows 版汉化项目，配合 TSLRCM + M4-78EP 合并版使用。
 
 - [汉化 MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=3816191703)
+- [汉化问题反馈网页](https://francisagust198.github.io/kotor2-chinese-localization/)（填写后登录 GitHub 提交，可附截图）
 - [英文前置：TSLRCM + M4-78EP](https://steamcommunity.com/sharedfiles/filedetails/?id=1402798020)
 - [高帧修复与中文缓存兼容](https://steamcommunity.com/sharedfiles/filedetails/?id=3816551034)
 
@@ -48,9 +49,11 @@ python tools/build_public_mod.py --output build/chs
 
 公开资料对应汉化 **0.5.16-complete-reviewed**，使用 16 列四级灰度组合字形和兼容的交替透明步进，过程动画及对话字幕目标字号为 1.5 倍。字体与文本需要同时更新。
 
-原生兼容组件 **0.1.2** 新增字体缩放计量修复。若在 2560×1440 下出现菜单偏移或说明挤成窄列，请更新该组件的根目录 DLL，并在 `[Chinese Text Fix]` 中设置 `FontScaleFix=1`。2K 主菜单与技能说明已确认恢复正常；其他分辨率仍需实机复核。
+原生兼容组件 **0.1.3** 默认开启中文缓存兼容与字体缩放计量修复（显式设置为 0 时仍关闭）。若在 2560×1440 下出现菜单偏移或说明挤成窄列，请更新该组件的根目录 DLL。2K 主菜单与技能说明已确认恢复正常；其他分辨率仍需实机复核。
 
-已完成发布文件校验、完整 TLK 和 GFF 位置校验，以及部分菜单、存档和区域切换测试。0.5.14 的字幕视觉与完整剧情流程仍需实机复核。数据中的 `needs_context`、保留英文和术语候选需要逐条判断，不应自动视为全部漏译。
+已完成新版完整回交文本的接入、全量来源与格式检查、发布文件及字形覆盖核验。本轮复核在回交稿基础上修订 5,897 条记录；全量结构检查不等于每句对白均完成独立人工复核。部分菜单、存档、区域切换和对话末项选择已有实机验证；新版文本的完整剧情流程及全部长对白逐句语义复核尚未完成。
+
+玩家可通过[反馈网页](https://francisagust198.github.io/kotor2-chinese-localization/)整理问题、复现步骤和游戏环境，然后登录 GitHub 附上截图并提交 Issue。无 GitHub 账号可在工坊讨论区反馈。网页维护方式见[说明](docs/FEEDBACK_SITE.md)。
 
 ## 许可与致谢
 
