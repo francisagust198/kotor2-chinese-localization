@@ -1,0 +1,15 @@
+{
+  "records_scanned": 153698,
+  "person_entries": 85,
+  "gff_first_last_name_inventory": 82,
+  "changed_records": 563,
+  "changed_by_profile": {
+    "base": 281,
+    "mod": 276,
+    "gff": 6
+  },
+  "source_ids_hashes_preserved": true,
+  "old_chodo_zh_remaining": 0,
+  "repeated_slusk_remaining": 0,
+  "manual_full_dialogue_review": false
+}

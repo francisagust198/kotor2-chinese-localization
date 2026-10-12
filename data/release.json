@@ -1,5 +1,5 @@
 {
-  "version": "0.5.16-complete-reviewed",
+  "version": "0.5.17-name-terms",
   "codec": "column16_gray4_baseline_v2_altstep",
   "chinese_item": "3816191703",
   "english_mod_item": "1402798020",
@@ -18,19 +18,19 @@
       "translated": 401
     },
     "mod": {
-      "reviewed": 64017,
+      "reviewed": 64023,
       "keep_original": 8308,
-      "translated": 1746
+      "translated": 1740
     },
     "gff": {
-      "reviewed": 1083,
-      "translated": 3989,
+      "reviewed": 1085,
+      "translated": 3987,
       "keep_original": 531
     }
   },
   "expected_tlk_bytes": {
-    "base": 348472462,
-    "mod": 348804261
+    "base": 348499388,
+    "mod": 348847488
   },
   "game_exe_sha256": "6a522e71631dcee93467bd2010f3b23d9145326e1e2e89305f13ab104dbbffef",
   "current_map_sha256": "8f5c746c5cf1986ae98b72a19800f2862784e4149a1a781de751340b2363e804",
@@ -41,5 +41,20 @@
   "save_converter_version": "1.0.1",
   "mapped_characters": 3294,
   "manual_full_dialogue_review": false,
-  "gameplay_validation": "Pending for new translations; existing 1080p reply positioning retained"
+  "gameplay_validation": "Pending for new translations; existing 1080p reply positioning retained",
+  "name_terminology_review": {
+    "records_scanned": 153698,
+    "person_entries": 85,
+    "gff_first_last_name_inventory": 82,
+    "changed_records": 563,
+    "changed_by_profile": {
+      "base": 281,
+      "mod": 276,
+      "gff": 6
+    },
+    "source_ids_hashes_preserved": true,
+    "old_chodo_zh_remaining": 0,
+    "repeated_slusk_remaining": 0,
+    "manual_full_dialogue_review": false
+  }
 }

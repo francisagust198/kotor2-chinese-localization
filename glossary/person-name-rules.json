@@ -1,0 +1,421 @@
+[
+  {
+    "name": "Chodo Habat",
+    "en_forms": [
+      "Chodo",
+      "Habat"
+    ],
+    "replacements": {
+      "长堂黑贝": "乔多·哈巴特",
+      "长堂·黑贝": "乔多·哈巴特",
+      "长堂": "乔多",
+      "科多": "乔多",
+      "黑贝": "哈巴特"
+    }
+  },
+  {
+    "name": "Loppak Slusk components",
+    "en_forms": [
+      "Loppak",
+      "Slusk"
+    ],
+    "replacements": {
+      "罗帕克": "洛帕克",
+      "斯拉克斯": "斯拉斯克",
+      "斯拉斯科": "斯拉斯克",
+      "斯鲁克": "斯拉斯克",
+      "斯鲁斯克": "斯拉斯克"
+    }
+  },
+  {
+    "name": "Loppak Slusk repeated surname",
+    "en_forms": [
+      "Loppak",
+      "Slusk"
+    ],
+    "replacements": {
+      "洛帕克·斯拉斯克·斯拉斯克": "洛帕克·斯拉斯克"
+    }
+  },
+  {
+    "name": "Jana Lorso",
+    "en_forms": [
+      "Jana",
+      "Lorso"
+    ],
+    "replacements": {
+      "劳索": "洛尔索",
+      "罗索": "洛尔索",
+      "洛索": "洛尔索"
+    }
+  },
+  {
+    "name": "Atton Rand",
+    "en_forms": [
+      "Atton",
+      "Rand"
+    ],
+    "replacements": {
+      "艾屯": "亚顿",
+      "安东": "亚顿",
+      "埃顿": "亚顿",
+      "阿通": "亚顿",
+      "阿顿": "亚顿",
+      "艾顿": "亚顿",
+      "亚通": "亚顿"
+    }
+  },
+  {
+    "name": "Ulic Qel-Droma",
+    "en_forms": [
+      "Ulic"
+    ],
+    "replacements": {
+      "由里克·奎·卓玛": "乌利克·凯尔-德罗马",
+      "乌里克奎卓马": "乌利克·凯尔-德罗马",
+      "乌利克·奎·卓玛": "乌利克·凯尔-德罗马",
+      "乌尔瑞克": "乌利克",
+      "乌里克": "乌利克",
+      "由里克": "乌利克"
+    }
+  },
+  {
+    "name": "Qel-Droma family",
+    "en_forms": [
+      "Qel-Droma",
+      "Qel Droma"
+    ],
+    "replacements": {
+      "奎尔-德罗玛": "凯尔-德罗马",
+      "奎·卓玛": "凯尔-德罗马",
+      "奎卓马": "凯尔-德罗马"
+    }
+  },
+  {
+    "name": "Duron Qel-Droma",
+    "en_forms": [
+      "Duron"
+    ],
+    "replacements": {
+      "杜隆": "达伦",
+      "杜伦": "达伦"
+    }
+  },
+  {
+    "name": "Bendak Starkiller",
+    "en_forms": [
+      "Bendak",
+      "Starkiller"
+    ],
+    "replacements": {
+      "弑星者": "戮星者"
+    }
+  },
+  {
+    "name": "Eli Gand",
+    "en_forms": [
+      "Eli Gand",
+      "Eli"
+    ],
+    "replacements": {
+      "伊莱": "伊利"
+    }
+  },
+  {
+    "name": "Rothrrrawr",
+    "en_forms": [
+      "Rothrrrawr"
+    ],
+    "replacements": {
+      "罗瑟罗尔": "罗斯拉尔"
+    }
+  },
+  {
+    "name": "Dustil Onasi",
+    "en_forms": [
+      "Dustil"
+    ],
+    "replacements": {
+      "达希尔": "达斯蒂尔"
+    }
+  },
+  {
+    "name": "Shaela Nur",
+    "en_forms": [
+      "Shaela",
+      "Nur"
+    ],
+    "replacements": {
+      "沙伊拉": "莎伊拉",
+      "雪拉·诺尔": "莎伊拉·努尔",
+      "雪拉": "莎伊拉"
+    }
+  },
+  {
+    "name": "Ood Bnar",
+    "en_forms": [
+      "Ood Bnar",
+      "Ude Bnar"
+    ],
+    "replacements": {
+      "欧德·布纳尔": "乌德·布纳尔",
+      "欧德·布纳": "乌德·布纳尔",
+      "奥德·巴纳": "乌德·布纳尔"
+    }
+  },
+  {
+    "name": "Kumus",
+    "en_forms": [
+      "Kumus"
+    ],
+    "replacements": {
+      "库马斯": "库穆斯"
+    }
+  },
+  {
+    "name": "Kelborn",
+    "en_forms": [
+      "Kelborn"
+    ],
+    "replacements": {
+      "科伯恩": "凯尔伯恩",
+      "凯尔博恩": "凯尔伯恩",
+      "凯尔本": "凯尔伯恩"
+    }
+  },
+  {
+    "name": "Coorta",
+    "en_forms": [
+      "Coorta"
+    ],
+    "replacements": {
+      "库塔": "库尔塔"
+    }
+  },
+  {
+    "name": "Carth Onasi",
+    "en_forms": [
+      "Carth",
+      "Onasi"
+    ],
+    "replacements": {
+      "卡尔斯 -奥纳斯": "卡思·奥纳西",
+      "卡尔斯·奥纳斯": "卡思·奥纳西",
+      "卡尔斯": "卡思",
+      "卡斯": "卡思",
+      "奥纳斯": "奥纳西"
+    }
+  },
+  {
+    "name": "Darth Sion",
+    "en_forms": [
+      "Sion"
+    ],
+    "replacements": {
+      "席昂": "赛恩"
+    }
+  },
+  {
+    "name": "Batu Rem",
+    "en_forms": [
+      "Batu",
+      "Rem"
+    ],
+    "replacements": {
+      "拔都": "巴图",
+      "列姆": "雷姆"
+    }
+  },
+  {
+    "name": "Bao-Dur",
+    "en_forms": [
+      "Bao-Dur",
+      "Bao Dur",
+      "Baodur"
+    ],
+    "replacements": {
+      "贝 -都尔": "贝奥-杜尔",
+      "贝·都尔": "贝奥-杜尔",
+      "鲍·杜尔": "贝奥-杜尔",
+      "贝奥·杜尔": "贝奥-杜尔",
+      "贝奥-都尔": "贝奥-杜尔"
+    }
+  },
+  {
+    "name": "Tienn Tubb",
+    "en_forms": [
+      "Tienn",
+      "Tubb"
+    ],
+    "replacements": {
+      "塔布": "图布",
+      "提恩": "蒂恩"
+    }
+  },
+  {
+    "name": "Xarga",
+    "en_forms": [
+      "Xarga"
+    ],
+    "replacements": {
+      "泽阿尔加": "艾克萨加",
+      "阿尔加": "艾克萨加",
+      "夏尔加": "艾克萨加",
+      "沙尔戈": "艾克萨加",
+      "萨迦": "艾克萨加"
+    }
+  },
+  {
+    "name": "Dhagon Ghent",
+    "en_forms": [
+      "Dhagon",
+      "Ghent"
+    ],
+    "replacements": {
+      "哈根": "达贡"
+    }
+  },
+  {
+    "name": "Akkere",
+    "en_forms": [
+      "Akkere"
+    ],
+    "replacements": {
+      "亚奇尔": "艾克瑞",
+      "亚齐尔": "艾克瑞"
+    }
+  },
+  {
+    "name": "Kaah",
+    "en_forms": [
+      "Kaah"
+    ],
+    "replacements": {
+      "卡尔": "卡赫"
+    }
+  },
+  {
+    "name": "Darth Traya",
+    "en_forms": [
+      "Traya"
+    ],
+    "replacements": {
+      "特蕾娅": "特拉娅"
+    }
+  },
+  {
+    "name": "Saquesh",
+    "en_forms": [
+      "Saquesh"
+    ],
+    "replacements": {
+      "萨奎什": "萨科"
+    }
+  },
+  {
+    "name": "Doton Het",
+    "en_forms": [
+      "Doton",
+      "Het"
+    ],
+    "replacements": {
+      "大通": "多顿"
+    }
+  },
+  {
+    "name": "Arren Kae",
+    "en_forms": [
+      "Arren",
+      "Kae"
+    ],
+    "replacements": {
+      "凯伊": "卡娅",
+      "卡伊": "卡娅",
+      "凯大师": "卡娅大师",
+      "大师凯": "卡娅大师",
+      "凯在": "卡娅在",
+      "阿伦": "艾伦"
+    }
+  },
+  {
+    "name": "Naga Sadow",
+    "en_forms": [
+      "Sadow"
+    ],
+    "replacements": {
+      "萨都": "萨多"
+    }
+  },
+  {
+    "name": "Zez-Kai Ell",
+    "en_forms": [
+      "Zez-Kai Ell",
+      "Zez-Kai",
+      "Kai Ell"
+    ],
+    "replacements": {
+      "泽兹 -凯·艾尔": "泽兹-凯·艾尔"
+    }
+  },
+  {
+    "name": "Canderous Ordo",
+    "en_forms": [
+      "Canderous",
+      "Ordo"
+    ],
+    "replacements": {
+      "奥度": "奥多",
+      "坎德鲁斯·奥尔多": "坎德鲁斯·奥多"
+    }
+  },
+  {
+    "name": "Mission Vao surname",
+    "en_forms": [
+      "Mission Vao",
+      "Vao"
+    ],
+    "replacements": {
+      "瓦欧": "韦奥",
+      "瓦奥": "韦奥"
+    }
+  },
+  {
+    "name": "Lonna Vash",
+    "en_forms": [
+      "Lonna",
+      "Vash"
+    ],
+    "replacements": {
+      "隆娜": "洛娜",
+      "瓦会变得": "瓦什会变得"
+    }
+  },
+  {
+    "name": "Zhug family",
+    "en_forms": [
+      "Zhug"
+    ],
+    "replacements": {
+      "祖格": "扎格"
+    }
+  },
+  {
+    "name": "Exar Kun surname",
+    "en_forms": [
+      "Kun"
+    ],
+    "replacements": {
+      "黑暗领主孔": "黑暗领主库恩"
+    }
+  },
+  {
+    "name": "Jolee Bindo idiom",
+    "en_forms": [
+      "Bindo"
+    ],
+    "replacements": {
+      "结婚……弃誓": "像……宾多那样",
+      "结婚弃誓": "像宾多那样做"
+    }
+  }
+]

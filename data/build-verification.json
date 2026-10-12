@@ -1,17 +1,13 @@
 {
-  "version": "0.5.16-complete-reviewed",
-  "public_source_rebuild": {
-    "generated_resource_files": 224,
-    "matches_published_stage_hashes": 224,
-    "mismatches": 0,
-    "tlk_records_verified": {
-      "base": 136329,
-      "mod": 136375
-    },
-    "gff_locations_verified": 7022,
-    "font_aliases_verified": 35
+  "status": "passed",
+  "version": "0.5.17-name-terms",
+  "records": 153698,
+  "tlk_records_verified": {
+    "base": 136329,
+    "mod": 136375
   },
-  "regression_tests": 12,
-  "full_gameplay_test": false,
-  "manual_full_dialogue_review": false
+  "gff_locations_verified": 7022,
+  "fonts_gui_map_preserved": true,
+  "regression_tests_passed": 17,
+  "gameplay_test": false
 }

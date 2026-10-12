@@ -6,11 +6,16 @@ from build_uniform_font import encode
 from embedded_patch import patch_archive,patch_gff,read_local
 from widescreen_gui import Gui,extract_gui
 from composite_font_resources import make_tpc,verify_tpc
+from name_terminology import compile_rules,correct
 
 def main(output):
     output=output.resolve();assert not output.exists(),'Preserve previous builds; use a new output directory'
     assert not output.is_relative_to(Path(CFG['game']).resolve()) and not output.is_relative_to(Path(CFG['workshop']).resolve()),'Build outside installed game resources'
     data=translations();tables,sources,cache=english_sources(data)
+    name_rules=compile_rules(json.loads((ROOT/'glossary/person-name-rules.json').read_text(encoding='utf-8')))
+    for rows_ in data.values():
+        for row in rows_:
+            assert correct(sources[row['id']],row['zh'],name_rules)[0]==row['zh'],(row['id'],'Known name variant or repeated surname; run the source-gated name correction review')
     mapping={c:bytes.fromhex(h) for c,h in json.loads((ROOT/'data/current-map.json').read_text(encoding='utf-8')).items()}
     content=output/'content';content.mkdir(parents=True);front=Path(CFG['workshop'])/'1402798020'
     summaries={}
