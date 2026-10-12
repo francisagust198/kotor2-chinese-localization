@@ -2,7 +2,7 @@
 import argparse,collections,ctypes,gzip,hashlib,json,mmap,os,re,struct,sys,time,uuid
 from pathlib import Path
 
-VERSION='1.0.0'
+VERSION='1.0.1'
 DISPLAY_LABELS={'FirstName','LastName','LocName','LocalizedName','Name','Description','DescIdentified','Text','MapNote'}
 def digest(b):return hashlib.sha256(b).hexdigest()
 def require(condition,message):
@@ -10,7 +10,10 @@ def require(condition,message):
 def resource_dir():return Path(getattr(sys,'_MEIPASS',Path(__file__).parent))
 def application_dir():return Path(sys.executable if getattr(sys,'frozen',False) else __file__).resolve().parent
 def load_catalog(path=None):
-    with gzip.open(path or (resource_dir()/'save-cache-catalog.json.gz' if getattr(sys,'frozen',False) else Path(__file__).resolve().parents[1]/'data/save-cache-catalog.json.gz'),'rt',encoding='utf-8') as f:return json.load(f)
+    # Workshop can update the recognized-cache catalog beside the executable.
+    external=application_dir()/'save-cache-catalog.json.gz'
+    selected=Path(path) if path else external if external.is_file() else resource_dir()/'save-cache-catalog.json.gz'
+    with gzip.open(selected,'rt',encoding='utf-8') as f:return json.load(f)
 def running_game():
     if os.name!='nt':return False
     from ctypes import wintypes

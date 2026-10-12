@@ -1,17 +1,13 @@
 {
-  "exported_date": "2026-10-12",
-  "origin": "verified published 0.5.14 editorial return",
-  "published_source_hashes": {
-    "base": "86c7650c5516c04f8e9674ac80baed0ded1586a1d75e03bc51b8ae7dc0da2e20",
-    "mod": "a3119ad4eb2f75e93e562435e6672e44fa69fde1c6120045b98522d3b58259db",
-    "gff": "3e0cb7bfe3ba6b1a95a4566ca3cfc0a0db195c39f6834f615b3480274b17afe8"
+  "version": "0.5.16-complete-reviewed",
+  "origin_archive": "KOTOR2_中文回交_终版_全部完成.zip",
+  "origin_archive_sha256": "06ac1d2797290e2c67d504d1f525d071811ea2e74dc8d9b7cff4eb27ba8d5b33",
+  "source_tables_verified": true,
+  "source_hashes": {
+    "base": "3c718d92ced021bc1619dbe8e165ccfcbe950fae46fc34520d4ad62b7b65769b",
+    "mod": "1fa32795673abf88d1655196e5f2a83e1620f649001cea0d962b3305321629dd",
+    "gff": "409e66c64e4908b86462eb14549bb55382120200612890ef62f0f0c3e73b4d67"
   },
-  "published_map_sha256": "2ef464f8b349a641e24baea7f9c5e3bb4b2e6859f87eb02dcd8659b981cd3666",
-  "full_english_sources_included": false,
-  "unpublished_working_tables_differ": {
-    "base": true,
-    "mod": true,
-    "gff": true
-  },
-  "personal_saves_or_logs_included": false
+  "original_English_omitted": true,
+  "manually_reviewed_every_dialogue": false
 }

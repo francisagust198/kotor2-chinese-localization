@@ -1,5 +1,5 @@
 {
-  "version": "0.5.15-dialogue-reply-position",
+  "version": "0.5.16-complete-reviewed",
   "codec": "column16_gray4_baseline_v2_altstep",
   "chinese_item": "3816191703",
   "english_mod_item": "1402798020",
@@ -13,32 +13,33 @@
   },
   "statuses": {
     "base": {
-      "reviewed": 65200,
-      "keep_original": 8263,
-      "needs_context": 4,
-      "translated": 557
+      "reviewed": 65361,
+      "keep_original": 8262,
+      "translated": 401
     },
     "mod": {
-      "reviewed": 63399,
-      "needs_context": 6,
-      "keep_original": 8306,
-      "translated": 2360
+      "reviewed": 64017,
+      "keep_original": 8308,
+      "translated": 1746
     },
     "gff": {
-      "reviewed": 1026,
-      "translated": 4049,
-      "keep_original": 525,
-      "needs_context": 3
+      "reviewed": 1083,
+      "translated": 3989,
+      "keep_original": 531
     }
   },
   "expected_tlk_bytes": {
-    "base": 346454943,
-    "mod": 346910647
+    "base": 348472462,
+    "mod": 348804261
   },
   "game_exe_sha256": "6a522e71631dcee93467bd2010f3b23d9145326e1e2e89305f13ab104dbbffef",
-  "current_map_sha256": "37c50e6f175e29f5352fc80125af62ea4d869670c559b0e0a360bf6ab2f402a4",
+  "current_map_sha256": "8f5c746c5cf1986ae98b72a19800f2862784e4149a1a781de751340b2363e804",
   "gameplay_subtitle_validation": "pending",
   "font_aliases": 35,
   "reply_position_validation": "Replies moved up; final reply accurately highlighted and selected",
-  "reply_position_test_resolution": "1920x1080"
+  "reply_position_test_resolution": "1920x1080",
+  "save_converter_version": "1.0.1",
+  "mapped_characters": 3294,
+  "manual_full_dialogue_review": false,
+  "gameplay_validation": "Pending for new translations; existing 1080p reply positioning retained"
 }
