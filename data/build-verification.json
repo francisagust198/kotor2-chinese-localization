@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "version": "0.5.18-dialogue-review",
+  "version": "0.5.19-skill-layout",
   "records": 153698,
   "tlk_records_verified": {
     "base": 136329,
@@ -8,6 +8,5 @@
   },
   "gff_locations_verified": 7022,
   "fonts_gui_map_preserved": true,
-  "regression_tests_passed": 22,
   "gameplay_test": false
 }

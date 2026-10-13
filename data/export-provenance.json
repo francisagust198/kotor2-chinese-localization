@@ -1,5 +1,5 @@
 {
-  "version": "0.5.18-dialogue-review",
+  "version": "0.5.19-skill-layout",
   "origin_archive": "KOTOR2_中文回交_终版_全部完成.zip",
   "origin_archive_sha256": "06ac1d2797290e2c67d504d1f525d071811ea2e74dc8d9b7cff4eb27ba8d5b33",
   "source_tables_verified": true,
@@ -10,5 +10,5 @@
   },
   "original_English_omitted": true,
   "manually_reviewed_every_dialogue": false,
-  "followup_review": "dialogue-review-20261013"
+  "followup_review": "skill-layout-20261013"
 }
