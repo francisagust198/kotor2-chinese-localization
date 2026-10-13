@@ -12,6 +12,7 @@
 #endif
 
 static HMODULE selfModule, realInput, runtimeModule;
+static int InitializeTextOverlay(void);
 static INIT_ONCE realOnce = INIT_ONCE_STATIC_INIT;
 static INIT_ONCE patchOnce = INIT_ONCE_STATIC_INIT;
 static wchar_t logPath[MAX_PATH];
@@ -356,7 +357,9 @@ static BOOL CALLBACK PatchInit(PINIT_ONCE once, PVOID parameter, PVOID* context)
 
 static void __cdecl SteamCallbacks(void) {
     originalCallbacks();
-    if (InitOnceExecuteOnce(&patchOnce, PatchInit, NULL, NULL) && callbackSlot) {
+    int highFpsReady=InitOnceExecuteOnce(&patchOnce, PatchInit, NULL, NULL);
+    int overlayReady=InitializeTextOverlay();
+    if (highFpsReady && overlayReady && callbackSlot) {
         DWORD old, ignored;
         if (VirtualProtect((void*)callbackSlot, sizeof(LONG), PAGE_READWRITE, &old)) {
             InterlockedCompareExchange(callbackSlot, (LONG)originalCallbacks, (LONG)SteamCallbacks);
@@ -368,6 +371,7 @@ static void __cdecl SteamCallbacks(void) {
 // Apply on the game's own thread after Steam initialization, never from DllMain
 // or a background thread while game instructions could be running concurrently.
 static void DeferUntilSteamCallback(void) {
+    if(callbackSlot)return;
     unsigned char* image = (unsigned char*)GetModuleHandleW(NULL);
     IMAGE_DOS_HEADER* dos = (IMAGE_DOS_HEADER*)image;
     IMAGE_NT_HEADERS32* nt = (IMAGE_NT_HEADERS32*)(image + dos->e_lfanew);
@@ -417,7 +421,9 @@ HRESULT WINAPI DirectInput8Create(HINSTANCE instance, DWORD version, const GUID*
 #ifdef HFP_CURSOR_TRACE
     InitOnceExecuteOnce(&cursorTraceOnce, InstallCursorTrace, NULL, NULL);
 #endif
-    if (!InitOnceExecuteOnce(&patchOnce, PatchInit, NULL, NULL)) DeferUntilSteamCallback();
+    int highFpsReady=InitOnceExecuteOnce(&patchOnce, PatchInit, NULL, NULL);
+    int overlayReady=InitializeTextOverlay();
+    if (!highFpsReady || !overlayReady) DeferUntilSteamCallback();
     HRESULT status = fn(instance, version, iid, result, outer);
     ApplyBorderless();
     return status;
@@ -442,6 +448,7 @@ __declspec(dllexport) int __cdecl HfpTestRollback(void) { return Rollback() && P
 #include <stdint.h>
 #include "message_buffer_fix.h"
 #include "font_scale_fix.h"
+#include "tlk_overlay_workshop.h"
 BOOL WINAPI DllMain(HINSTANCE module, DWORD reason, void* reserved) {
     (void)reserved;
     if (reason == DLL_PROCESS_ATTACH) { selfModule = module; DisableThreadLibraryCalls(module); InitializeMessageBufferFix(); InitializeFontScaleFix(); }

@@ -5,6 +5,7 @@
 - [汉化 MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=3816191703)
 - [汉化问题反馈网页](https://francisagust198.github.io/kotor2-chinese-localization/)（填写后登录 GitHub 提交，可附截图）
 - [英文前置：TSLRCM + M4-78EP](https://steamcommunity.com/sharedfiles/filedetails/?id=1402798020)
+- [MOD 汉化教程与可视化工具](docs/MOD_TRANSLATION_TUTORIAL.md)
 - [高帧修复与中文缓存兼容](https://steamcommunity.com/sharedfiles/filedetails/?id=3816551034)
 
 欢迎个人、译者和专业团队参考技术方案，参与翻译与校对、接手维护，或为其他 KOTOR II MOD 制作汉化补丁。可以通过 Issues 讨论问题，或提交 Pull Request；新团队也可以 Fork 后独立维护，并保留来源与致谢。
@@ -14,6 +15,10 @@
 订阅英文前置和汉化，在 Steam 的创意工坊加载顺序中将汉化放在前置之后。高帧修复与中文缓存兼容组件需要按其工坊说明手动安装根目录 DLL；仅订阅不会自动安装这个组件。
 
 仓库是维护与交接资料，不是可以直接复制到游戏里的成品包。实际游玩请使用工坊版本。
+
+## MOD 汉化工作台
+
+[下载 Windows 工作台 0.2.0](downloads/KOTOR2_MODTranslator_020.zip)，无需 Python。支持 MOD 汉化 / 原版文本修正二选一、手动与 CSV 编辑、配置兼容 API 的 AI 草稿翻译，并打包为独立汉化 MOD。详见 [教程](docs/MOD_TRANSLATION_TUTORIAL.md)。共享文本接口仍为候选，实机验收尚待完成。
 
 ## 仓库内容
 
