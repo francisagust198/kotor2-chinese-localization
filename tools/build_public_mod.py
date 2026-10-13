@@ -7,11 +7,13 @@ from embedded_patch import patch_archive,patch_gff,read_local
 from widescreen_gui import Gui,extract_gui
 from composite_font_resources import make_tpc,verify_tpc
 from name_terminology import compile_rules,correct
+from dialogue_corrections import check_known_dialogue_issues
 
 def main(output):
     output=output.resolve();assert not output.exists(),'Preserve previous builds; use a new output directory'
     assert not output.is_relative_to(Path(CFG['game']).resolve()) and not output.is_relative_to(Path(CFG['workshop']).resolve()),'Build outside installed game resources'
     data=translations();tables,sources,cache=english_sources(data)
+    check_known_dialogue_issues(data,[json.loads(l) for l in (ROOT/'data/dialogue-approved-corrections.jsonl').read_text(encoding='utf-8').splitlines() if l.strip()])
     name_rules=compile_rules(json.loads((ROOT/'glossary/person-name-rules.json').read_text(encoding='utf-8')))
     for rows_ in data.values():
         for row in rows_:

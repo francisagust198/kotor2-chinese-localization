@@ -35,6 +35,12 @@ def correct(source, text, compiled):
         for i,piece in enumerate(pieces):
             def replace(match):
                 before=match.group(); after=rule['replacements'][before]
+                # A reviewed short spelling may be a prefix of the correct name.
+                # Do not append it again inside an already correct occurrence.
+                for offset in range(len(after)-len(before)+1):
+                    start=match.start()-offset
+                    if start>=0 and after[offset:offset+len(before)]==before and piece[start:start+len(after)]==after:
+                        return before
                 changes.append(dict(rule=rule['name'],before=before,after=after))
                 return after
             pieces[i]=old.sub(replace,piece)

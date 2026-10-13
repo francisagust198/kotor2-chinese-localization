@@ -26,5 +26,10 @@ class NameTerminologyTests(unittest.TestCase):
         source='Loppak Slusk and Chodo Habat.'
         first=self.fix(source,'洛帕克·斯拉斯克·斯拉克斯和长堂黑贝。')
         self.assertEqual(self.fix(source,first),first)
+    def test_correct_name_prefix_is_not_expanded_again(self):
+        rules=compile_rules([dict(name='Panar',en_forms=['Panar'],replacements={'帕纳':'帕纳尔','帕那':'帕纳尔'})])
+        first=correct('Panar met Panar.','帕纳和帕纳尔。',rules)[0]
+        self.assertEqual(first,'帕纳尔和帕纳尔。')
+        self.assertEqual(correct('Panar met Panar.',first,rules)[0],first)
 
 if __name__=='__main__':unittest.main()

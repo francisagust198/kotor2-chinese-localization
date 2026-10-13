@@ -2,15 +2,15 @@
 
 由 `glossary/terms.jsonl` 生成，请勿手工编辑本文件；改 JSONL 后运行 `py -3.10 tools\glossary_build.py`。
 
-共 507 条。状态：定稿 = 可直接使用；候选 = 已有依据但仍建议复核；待裁决 = 存在冲突或多种通行译法；保留英文 = 原样保留不翻译。
+共 509 条。状态：定稿 = 可直接使用；候选 = 已有依据但仍建议复核；待裁决 = 存在冲突或多种通行译法；保留英文 = 原样保留不翻译。
 
 | 状态 | 条数 |
 | --- | ---: |
-| 定稿 | 181 |
-| 候选 | 308 |
+| 定稿 | 185 |
+| 候选 | 306 |
 | 保留英文 | 18 |
 
-## 人物（85）
+## 人物（86）
 
 | 英文 | 中文 | 状态 | 依据 | 备注 |
 | --- | --- | --- | --- | --- |
@@ -77,6 +77,7 @@
 | Naga Sadow | 那伽·萨多 | 定稿 | [Wookieepedia（英文星球大战维基）](https://starwars.fandom.com/wiki/)<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 22。旧译：纳加·萨多。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。【权威对齐·adopt】权威库精确条目。远古西斯尊主，见盔甲说明文本。 |
 | Ood Bnar（Master Ood Bnar、Master Ude Bnar） | 乌德·布纳尔 | 候选 | 项目内部约定 | 游戏原文拼作 Ood Bnar；全名乌德·布纳尔，称号大师单独处理。 |
 | Orsaa | 奥萨 | 候选 | 交接包语料（localization_handoff_20261009）<br>项目内部约定 | 旧译：旧汉化未见稳定译法。 |
+| Panar | 帕纳尔 | 定稿 | 交接包语料（localization_handoff_20261009） | 项目统一：采用现行角色名称条目 91446 的译名，修正对白中的帕那/帕纳。 |
 | Queen Talia（Talia） | 塔莉娅女王 | 定稿 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 127。旧译：泰利亚 14；塔利亚 12。旧汉化混用“女王/王后”；昂德隆为君主国，统一“女王”。 |
 | Riiken（Captain Riiken） | 里肯 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 64。伊兹兹的共和国上尉。 |
 | Rothrrrawr | 罗斯拉尔 | 候选 | 交接包语料（localization_handoff_20261009）<br>项目内部约定 | 旧译：罗斯。伍基人名，保留多音节音译。 |
@@ -322,7 +323,7 @@
 | Winch | 绞盘 | 候选 | 交接包语料（localization_handoff_20261009）<br>项目内部约定 | 旧译：曲柄。 |
 | Workbench | 工作台 | 候选 | [旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html)<br>项目内部约定 | 语料命中 654。旧译：工作台。升级物品说明固定用词。 Workbench 也作普通名词；仅升级说明固定表述按术语判定。 |
 
-## 物品（19）
+## 物品（20）
 
 | 英文 | 中文 | 状态 | 依据 | 备注 |
 | --- | --- | --- | --- | --- |
@@ -331,6 +332,7 @@
 | computer spike（Spike、Spikes） | 计算机刺探器 | 候选 | [星球大战中文网「译名管理系统」](http://starwarschina.com/glossary/index.php)<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 368。旧译：黑客工具；芯片。译名管理系统作「计算机刺探器」；旧汉化「黑客工具/芯片」不再使用。界面短标签可用「刺探器」。 |
 | Footlocker | 储物箱 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 旧译：提箱；军用提箱。【项目裁决】统一「储物箱」。 |
 | Frag Grenade | 破片手雷 | 候选 | [旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html)<br>项目内部约定 | 语料命中 4。旧译：破片手雷。Frag Grenade 也作普通名词；仅物品名按术语判定。 |
+| Juma Juice | 珠麻果汁 | 定稿 | 交接包语料（localization_handoff_20261009） | 采用现行物品 84935/84936 的名称，用于明确提及这种饮料的对白，不自动扩写一般 juice。 |
 | medpac | 医疗包 | 候选 | 项目内部约定<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 32。旧译：医疗包。本轮查无来源，项目自建候选。 medpac 也作普通物品名；仅物品名按术语判定。 |
 | Medpac I（Medpac II、Medpac III） | I 级医疗包 | 候选 | 交接包语料（localization_handoff_20261009）<br>[KOTOR I dialog.tlk 英文全量字符串转储（本机留档）](https://github.com/OpenKotOR/PyKotor)<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 3。旧译：医疗包。带等级的物品名，格式为「Medpac N」→ 中文「N 级医疗包」。 |
 | Mining Droid Mark | 采矿机器人 Mark I；Mark I→采矿机器人 Mark I；Mark II→采矿机器人 Mark II；Mark III→采矿机器人 Mark III | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 66。【项目裁决】Mark 是型号后缀，型号后置：采矿机器人 Mark I / Mark II / Mark III，不译「标记」。全库统一，旧汉化「II 型采矿机器人」作废。 |
@@ -372,18 +374,18 @@
 | Drain Life | 吸取生命 | 候选 | [旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html)<br>项目内部约定 | 语料命中 3。旧译：吸取生命。 |
 | Energy Resistance | 能量抗性 | 候选 | [旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html)<br>项目内部约定 | 语料命中 7。旧译：能量抵抗。统一「抗性」而非「抵抗」。 |
 | Fear | 恐惧术 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 旧译：恐惧。原力链条第一级；为与状态「恐惧（Horror）」区分，能力名用「恐惧术」。 |
-| Force Affinity Form | 原力亲和式 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：原理喜好；原力喜好。四种原力式之一。 |
+| Force Affinity Form | 原力亲和式 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：原理喜好；原力喜好。与当前原力剑式名称一致；保留既有术语 ID，不能将所有普通 form 一律替换为剑式名。 |
 | Force Armor | 原力护甲 | 候选 | [旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html)<br>项目内部约定 | 语料命中 1。旧译：护甲。 |
 | Force Barrier | 原力屏障 | 候选 | [旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html)<br>项目内部约定 | 语料命中 7。旧译：原力屏障。 |
 | Force Bond | 原力纽带 | 候选 | [Wookieepedia（英文星球大战维基）](https://starwars.fandom.com/wiki/)<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 7。旧译：原力结合 4；原力联结 4。克蕾娅与放逐者之间的核心设定，通译“原力纽带”。 |
-| Force Channel Form | 原力引导式 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：原力链式；原力招式。KOTOR II 的四种原力式之一。游戏内复合名为「Force Channel」，中文统一体例：专名 + 「式」，即「原力引导式」。 |
+| Force Channel Form | 原力引导式 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：原力链式；原力招式。与当前原力剑式名称一致；保留既有术语 ID，不能将所有普通 form 一律替换为剑式名。 |
 | Force Crush | 原力碾压 | 候选 | [旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html)<br>项目内部约定 | 语料命中 15。旧译：原力碾压。 |
 | Force Jump | 原力跳跃 | 定稿 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 8。旧译：原力跳跃。【自动检查豁免】专长名，正文可作「原力跳跃」。 绝地守卫专长。 |
 | Force Lightning | 原力闪电 | 定稿 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 9。旧译：原力闪电 8。与前置技能“电击（Shock）”区分。 |
 | Force Mastery | 原力精通 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 20。旧译：原力掌控；原理掌控。与「原力精通状态（Force Mastery Form）」同源；正文按语境区分「精通（能力）」与「精通状态（原力式）」。 |
-| Force Mastery Form | 原力精通式 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：原力掌控；原理掌控。四种原力式之一。 |
+| Force Mastery Form | 原力精通式 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：原力掌控；原理掌控。与当前原力剑式名称一致；保留既有术语 ID，不能将所有普通 form 一律替换为剑式名。 |
 | Force Persuade | 原力说服 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 73。旧译：原力说服 124；逼服；恐吓。对话选项中方括号标记，须与普通“说服/威吓”技能区分：Force Persuade 是原力能力，其余是技能检定。 |
-| Force Potency Form | 原力强化式 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：极性原力（误译）。四种原力式之一；旧汉化「极性原力」属误译。 |
+| Force Potency Form | 原力强化式 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：极性原力（误译）。与当前原力剑式名称一致；保留既有术语 ID，不能将所有普通 form 一律替换为剑式名。 |
 | Force Push | 原力推击 | 候选 | [旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html)<br>项目内部约定 | 语料命中 10。旧译：原力推击。 |
 | Force Resistance | 原力抗性 | 候选 | [旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html)<br>项目内部约定 | 语料命中 9。旧译：原力抵抗。 |
 | Force Scream | 原力尖啸 | 候选 | [旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html)<br>项目内部约定 | 语料命中 5。旧译：原力尖叫。 |
@@ -495,7 +497,7 @@
 | dark side（the dark side） | 黑暗面 | 定稿 | [星球大战中文网「译名管理系统」](http://starwarschina.com/glossary/index.php)<br>[星球大战中文网《旧共和国武士与真正的西斯》（南方战士）](http://www.starwarschina.com/portal.php?mod=view&aid=34)<br>[《星球大战：达斯·贝恩》官方授权简体中文小说（四川人民出版社，译者 雒城）](https://book.douban.com/subject/26898861/) | 语料命中 393。旧译：黑暗原力 58；黑暗面 14；暗黑世界（误译）。官方授权简体小说与译名管理系统一致；中文维基「阴暗面」为孤例。 dark side 也作普通描述；仅阵营语境按术语判定。 |
 | depressurized | 失压 | 候选 | 交接包语料（localization_handoff_20261009）<br>项目内部约定 | 旧译：失压。环境状态；统一「失压」。 |
 | droid intelligence | 机器人智能 | 候选 | 交接包语料（localization_handoff_20261009）<br>项目内部约定 | 旧译：旧汉化未见稳定译法。【项目裁决】泽卡/伊索人剧情中的核心概念，指机器人具备的自主智能，统一「机器人智能」。若某条实为属性数值标签，按语境作「机器人智力」。 |
-| Force Sensitive（Force Sensitives） | 原力敏感者 | 定稿 | [Wookieepedia（英文星球大战维基）](https://starwars.fandom.com/wiki/)<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 50。旧译：原力敏感 8；原力感应。统一“原力敏感者”。 |
+| Force Sensitive（Force Sensitives） | 原力敏感者；person→原力敏感者；adjective→原力敏感的；place→与原力相通的 | 定稿 | [Wookieepedia（英文星球大战维基）](https://starwars.fandom.com/wiki/)<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 50。旧译：原力敏感 8；原力感应。按语境区分人物、形容词、地点或世界；指代同伴时用他们，不能把星球或洞穴直接译成人物。 |
 | Jedi Civil War | 绝地内战 | 定稿 | [星球大战中文网「译名管理系统」](http://starwarschina.com/glossary/index.php)<br>[星球大战中文网《旧共和国武士与真正的西斯》（南方战士）](http://www.starwarschina.com/portal.php?mod=view&aid=34) | 语料命中 139。旧译：绝地内战；绝地武士内战。官方维基条目名“绝地内战”；旧汉化另有“绝地武士内战”，统一为短式。 |
 | Jedi Code | 绝地信条 | 定稿 | [星球大战中文网「译名管理系统」](http://starwarschina.com/glossary/index.php) | 语料命中 24。旧译：绝地信条；绝地戒律。官方“绝地信条”。 |
 | light side | 光明面 | 定稿 | [中文星球大战维基（星球大戰百科全書，Fandom）](https://starwars.fandom.com/zh/wiki/)<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 118。旧译：光明原力 62；光明面。与“黑暗面”对称，统一用“光明面”而非“光明原力”。 light side 也作普通描述；仅阵营语境按术语判定。 |
@@ -504,7 +506,7 @@
 | Mandalorian Wars | 曼达洛人战争 | 定稿 | [星球大战中文网「译名管理系统」](http://starwarschina.com/glossary/index.php)<br>[星球大战中文网《旧共和国武士与真正的西斯》（南方战士）](http://www.starwarschina.com/portal.php?mod=view&aid=34) | 语料命中 177。旧译：曼达洛战争；曼达洛里安战争。译名管理系统作「曼达洛人战争」，与「曼达洛战争」并存；此处取系统写法。 |
 | Mandalorian Wars veteran | 曼达洛战争老兵 | 候选 | 项目内部约定<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料未出现（设定说明/占位符类）。旧译：旧汉化未见稳定译法。描述性说法，KOTOR II 文本中不出现该短语；正文按语境译「曼达洛人战争老兵」，不作为固定术语。 |
 | pazaak | 帕扎克 | 候选 | 项目内部约定<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 248。旧译：帕扎克。本轮查无来源，项目自建候选。 |
-| slicer | 切片者 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 旧译：黑客。【项目裁决】名词统一「切片者」；作动词时按语境译「破解/入侵」。与 computer spike=计算机刺探器 同体系。 |
+| slicer | 黑客 | 定稿 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 旧译：黑客。电脑系统与安保网络入侵者的称呼；与现行对白及提示一致。词形 slice 的其他含义须按语境判断。 |
 | spacer | 太空船员 | 候选 | 交接包语料（localization_handoff_20261009）<br>项目内部约定 | 旧译：旧汉化未见稳定译法。 |
 | swoop race | 飞梭摩托车赛 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 旧译：飞梭赛。与 swoop=飞梭摩托、swoop racing=飞梭摩托竞速 同体系。 |
 | swoop racing | 飞梭摩托竞速；swoop bike→俯冲车 | 定稿 | [星球大战中文网「译名管理系统」](http://starwarschina.com/glossary/index.php)<br>[星球大战中文网《旧共和国武士与真正的西斯》（南方战士）](http://www.starwarschina.com/portal.php?mod=view&aid=34) | 语料命中 17。旧译：飞梭；飞车；俯冲车；俯冲的自行车（误译）。swoop bike 系统译名「飞梭摩托」；旧汉化「俯冲车/飞梭/飞车/俯冲的自行车」混用，须全篇替换。 |
@@ -526,7 +528,7 @@
 | Armory Console | 军械库主机 | 定稿 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 212。旧译：军械库主机。【禁止自动替换】同上。 |
 | Attributes（Strength、Dexterity、Constitution、Intelligence、Wisdom、Charisma） | 属性；Strength→力量；Dexterity→敏捷；Constitution→体质；Intelligence→智力；Wisdom→感知；Charisma→魅力 | 定稿 | [旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 717。旧译：属性；力量/敏捷/体质/智力/感知/魅力。【自动检查豁免】面板标签，正文用「力量/敏捷/体质/智力/感知/魅力」，不必出现「属性」二字。 六项属性译名固定；注意 Wisdom 在本作译“感知”，不是“智慧”。 Attributes 也作普通名词；仅角色面板标签按术语判定。 |
 | Basic Diagnostic | 基本诊断 | 定稿 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 303。旧译：基本诊断；基本论断（错字）。【自动检查豁免】控制台程序名，正文可作「基本诊断」。 旧汉化出现“基本论断”错字，须改。 |
-| Bonus Mission | 奖励任务 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 旧译：附加任务。 |
+| Bonus Mission | 附加任务 | 定稿 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 旧译：附加任务。玩家指定：日志中的主线外附加目标，不是报酬或悬赏；按 Bonus Mission 标签统一为附加任务。 |
 | Character Level | 角色等级 | 定稿 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 56。旧译：角色等级。【自动检查豁免】规则词汇，正文可作「角色等级」「等级」。 先决条件标签。 |
 | Charges | 充能次数 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 旧译：充能；充能次数。物品属性标签；统一「充能次数」，正文提及单次时用「一次充能」。 Charges 既是物品属性标签（充能次数），也是普通词（frag charge=破片炸弹、charge=冲锋）。仅标签位置按术语判定。 |
 | Command Console | 指令主机 | 定稿 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 393。旧译：指令主机；控制平台。【禁止自动替换】旧汉化「控制平台」是同名界面的统称，直换会把 GOTO COMMAND / SECURITY / ARMORY 三种控制台合成一个名字，必须按原文分别译。 M4-78 与戈托控制台标题。console 译为“主机”沿用旧汉化以保持界面熟悉度，但需与“控制台（console 一般义）”区分。 |
@@ -539,12 +541,12 @@
 | Exchange Thug | 「交易」打手 | 候选 | [旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 47。旧译：贸易帮暴徒 44；交易帮暴徒 12。【项目裁决】与组织名 the Exchange=「交易」完全一致，统一「「交易」打手」，旧汉化「贸易帮打手」作废。 |
 | Experience Points Gained | 获得经验值 | 候选 | [KOTOR I dialog.tlk 英文全量字符串转储（本机留档）](https://github.com/OpenKotOR/PyKotor)<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 2。旧译：获得经验值。固定提示句式，与「原力点」体系并列。 这是界面提示句式的固定写法；普通叙述里的 experience points gained 按句意翻译即可。 |
 | feat（feats） | 专长 | 定稿 | [旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 170。旧译：专长。【自动检查豁免】面板分类，正文可作「专长」；单独出现时按句意处理。 D20 术语，全篇高频。 feat 也作普通名词；仅界面分类标签按术语判定。 |
-| Force Affinity Form | 原力亲和状态 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：原理喜好；原力喜好。旧汉化译作“原理喜好”，属 Force=原理 的错字连带错误。 |
-| Force Channel Form | 原力引导状态 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：原力链式。 |
+| Force Affinity Form | 原力亲和式 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：原理喜好；原力喜好。与当前原力剑式名称一致；保留既有术语 ID，不能将所有普通 form 一律替换为剑式名。 |
+| Force Channel Form | 原力引导式 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：原力链式。与当前原力剑式名称一致；保留既有术语 ID，不能将所有普通 form 一律替换为剑式名。 |
 | Force Form | 原力式 | 定稿 | 交接包语料（localization_handoff_20261009）<br>项目内部约定 | 语料命中 6。旧译：原力链式；原力招式；原理招式（误译）。【项目裁决】采用「原力式」。游戏内四种原力能力的统称（Force Channel/Affinity/Potency/Mastery Form）。统一体例：具体招式译「原力引导式/亲和式/强化式/精通式」，泛指时作「原力式」，与光剑剑式的「第 N 式」保持同一套说法。旧汉化「原力链式」是明显误译。 |
-| Force Mastery Form | 原力精通状态 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：原理掌控；原力掌控。 |
+| Force Mastery Form | 原力精通式 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：原理掌控；原力掌控。与当前原力剑式名称一致；保留既有术语 ID，不能将所有普通 form 一律替换为剑式名。 |
 | Force Points（FP） | 原力点 | 候选 | 项目内部约定<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 54。旧译：原力点数 8；力点数 10。译名管理系统 NO RESULT；旧汉化作「原力点数」。界面缩写 FP 保留英文，登记为自建候选。 |
-| Force Potency Form | 原力强化状态 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：极性原力（误译）。旧汉化误译“极性原力”，须改。 |
+| Force Potency Form | 原力强化式 | 候选 | 交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：极性原力（误译）。与当前原力剑式名称一致；保留既有术语 ID，不能将所有普通 form 一律替换为剑式名。 |
 | Force Powers | 原力能力 | 候选 | [KOTOR I dialog.tlk 英文全量字符串转储（本机留档）](https://github.com/OpenKotOR/PyKotor)<br>交接包语料（localization_handoff_20261009）<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 88。旧译：原力招式；原力能力；原力能量。界面分类名，KOTOR I/II 文本均作「Force Powers」；中文统一「原力能力」。旧汉化「原力招式/原力能量」不再使用。 |
 | Improved Saving Throws | 强化豁免 | 候选 | [KOTOR I dialog.tlk 英文全量字符串转储（本机留档）](https://github.com/OpenKotOR/PyKotor)<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 2。旧译：强化豁免。专长/升级提示名。 专长/面板标签；普通叙述里的 saving throw 说明按规则用词处理。 |
 | Journal Updated | 任务日志已更新 | 候选 | [KOTOR I dialog.tlk 英文全量字符串转储（本机留档）](https://github.com/OpenKotOR/PyKotor)<br>[旧原版汉化（1.原版汉化/dialog.tlk）](https://www.pc6.com/softview/SoftView_152413.html) | 语料命中 1。旧译：任务日志更新。任务日志提示固定句式；KOTOR I 文本作「Journal Updated:」。 界面固定提示；叙述文字里的 journal 相关表达不套用。 |
@@ -581,3 +583,4 @@
 | Transition | 过渡区 | 候选 | 交接包语料（localization_handoff_20261009）<br>项目内部约定 | 旧译：转化。场景过渡标记。 |
 | Walla | 背景人声 | 候选 | 交接包语料（localization_handoff_20261009）<br>项目内部约定 | 旧译：旧汉化未见稳定译法。音效行业术语：人群背景低语。 |
 | {Female}（{Male}、{B}、{A}） | {Female} | 保留英文 | 项目内部约定 | 语料未出现（设定说明/占位符类）。旧译：结构标记，旧汉化同样保留。性别与子串标记，属于脚本/引擎结构，绝不能翻译或删除。 格式占位符/结构标记，只存在于资源结构而非可读文本中。 |
+

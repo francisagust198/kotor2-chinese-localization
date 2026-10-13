@@ -1,5 +1,5 @@
 {
-  "version": "0.5.17-name-terms",
+  "version": "0.5.18-dialogue-review",
   "codec": "column16_gray4_baseline_v2_altstep",
   "chinese_item": "3816191703",
   "english_mod_item": "1402798020",
@@ -18,19 +18,19 @@
       "translated": 401
     },
     "mod": {
-      "reviewed": 64023,
+      "reviewed": 64026,
       "keep_original": 8308,
-      "translated": 1740
+      "translated": 1737
     },
     "gff": {
-      "reviewed": 1085,
-      "translated": 3987,
+      "reviewed": 1095,
+      "translated": 3977,
       "keep_original": 531
     }
   },
   "expected_tlk_bytes": {
-    "base": 348499388,
-    "mod": 348847488
+    "base": 348494221,
+    "mod": 348839171
   },
   "game_exe_sha256": "6a522e71631dcee93467bd2010f3b23d9145326e1e2e89305f13ab104dbbffef",
   "current_map_sha256": "8f5c746c5cf1986ae98b72a19800f2862784e4149a1a781de751340b2363e804",
@@ -56,5 +56,38 @@
     "old_chodo_zh_remaining": 0,
     "repeated_slusk_remaining": 0,
     "manual_full_dialogue_review": false
+  },
+  "dialogue_context_review": {
+    "records_scanned": 153698,
+    "dialogue_resources_indexed": 1477,
+    "unique_dialogue_tlk_refs": 36559,
+    "inline_dialogue_source_hashes": 4959,
+    "corrected_records": 178,
+    "corrected_by_profile": {
+      "base": 82,
+      "mod": 81,
+      "gff": 15
+    },
+    "corrected_records_linked_to_dialogue": 84,
+    "reasons": {
+      "attribute_name_in_rules_context": 2,
+      "reviewed_sentence_in_dialogue_context": 28,
+      "source_gated_entity_or_bonus_label_consistency": 135,
+      "same_place_in_stage_cue": 4,
+      "negation_scope_confirmed_in_mandalore_dialogue": 2,
+      "contextual_wording": 4,
+      "internet_spelling": 2,
+      "force_sensitive_location_not_person": 1
+    },
+    "bonus_label": "附加任务",
+    "preserved_context_examples": [
+      "以经过",
+      "现在在",
+      "受不了了",
+      "不能自已",
+      "physical force",
+      "Makashi / Form II synonyms"
+    ],
+    "full_manual_dialogue_review": false
   }
 }
