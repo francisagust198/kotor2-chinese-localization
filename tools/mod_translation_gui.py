@@ -1,5 +1,5 @@
 """KOTOR II MOD translation editor, tkinter desktop app. MIT."""
-import argparse,json,os,sys,threading
+import argparse,json,os,sys,threading,queue
 from pathlib import Path
 import tkinter as tk
 from tkinter import ttk,filedialog,messagebox
@@ -7,8 +7,8 @@ import mod_translation_core as core
 import mod_translation_ai as ai
 class Editor:
     def __init__(self,root):
-        self.root=root;self.project=None;self.project_file=None;self.selected=None;self.page=0;self.busy=False
-        root.title('KOTOR II 汉化工作台 0.2.0');root.geometry('1220x880');root.minsize(1050,780);root.configure(bg='#edf2f7')
+        self.root=root;self.project=None;self.project_file=None;self.selected=None;self.page=0;self.busy=False;self.events=queue.Queue();self.job_id=0
+        root.title('KOTOR II 汉化工作台 0.2.1');root.geometry('1220x880');root.minsize(1050,780);root.configure(bg='#edf2f7')
         style=ttk.Style(root);style.theme_use('clam');style.configure('.',font=('Microsoft YaHei UI',10));style.configure('TFrame',background='#edf2f7');style.configure('TLabel',background='#edf2f7',foreground='#23344b');style.configure('TButton',padding=(10,5));style.configure('Accent.TButton',background='#1f6feb',foreground='white',padding=(14,6));style.map('Accent.TButton',background=[('active','#1659b6')]);style.configure('Treeview',rowheight=29,background='white',fieldbackground='white');style.configure('Treeview.Heading',font=('Microsoft YaHei UI',10,'bold'),padding=6)
         self.api=ai.load_config();self.ai_cancel=threading.Event();self.folder=tk.StringVar();self.tlk=tk.StringVar();self.current=tk.StringVar();self.mod_id=tk.StringVar();self.title=tk.StringVar();self.original_url=tk.StringVar();self.mode=tk.StringVar(value='MOD 局部文本');self.search=tk.StringVar();self.only_empty=tk.BooleanVar();self.status=tk.StringVar(value='1 选择工作模式与来源   →   2 提取 / 翻译   →   3 打包独立汉化 MOD')
         header=ttk.Frame(root,padding=(16,12));header.pack(fill='x');ttk.Label(header,text='KOTOR II 汉化工作台',font=('Microsoft YaHei UI',17,'bold')).pack(side='left');ttk.Button(header,text='教程',command=self.help).pack(side='right')
@@ -33,7 +33,7 @@ class Editor:
         pane=ttk.Panedwindow(root,orient='vertical');pane.pack(fill='both',expand=True,padx=12,pady=8)
         frame=ttk.Frame(pane);pane.add(frame,weight=3);self.tree=ttk.Treeview(frame,columns=('where','source','zh'),show='headings',height=6);self.tree.heading('where',text='资源 / 字段 / 编号');self.tree.heading('source',text='英文原文');self.tree.heading('zh',text='译文');self.tree.column('where',width=260);self.tree.column('source',width=360);self.tree.column('zh',width=350);self.tree.pack(side='left',fill='both',expand=True);scroll=ttk.Scrollbar(frame,command=self.tree.yview);scroll.pack(side='right',fill='y');self.tree.configure(yscrollcommand=scroll.set);self.tree.bind('<<TreeviewSelect>>',self.select)
         edit=ttk.Frame(pane);pane.add(edit,weight=2);edit.columnconfigure(0,weight=1);edit.columnconfigure(1,weight=1);edit.rowconfigure(1,weight=1);ttk.Label(edit,text='英文原文（只读）').grid(row=0,column=0,sticky='w',pady=6);ttk.Label(edit,text='中文译文（保留 <CUSTOM0>、%d 等变量）').grid(row=0,column=1,sticky='w',pady=6,padx=8);self.source=tk.Text(edit,height=5,width=35,wrap='word',font=('Microsoft YaHei UI',10));self.source.grid(row=1,column=0,sticky='nsew');self.source.configure(state='disabled');self.translation=tk.Text(edit,height=5,width=35,wrap='word',undo=True,font=('Microsoft YaHei UI',11));self.translation.grid(row=1,column=1,sticky='nsew',padx=(8,0));ttk.Button(edit,text='应用译文（Ctrl+Enter）',command=self.apply).grid(row=2,column=1,sticky='e',pady=5)
-        root.bind('<Control-Return>',lambda e:self.apply());root.bind('<Control-s>',lambda e:self.save());root.protocol('WM_DELETE_WINDOW',self.close);self.show_mode()
+        root.bind('<Control-Return>',lambda e:self.apply());root.bind('<Control-s>',lambda e:self.save());root.protocol('WM_DELETE_WINDOW',self.close);self.show_mode();root.after(50,self.poll_events)
     def show_mode(self):
         body=self.mode.get()=='本体文本修正'
         if not hasattr(self,'source_controls'):self.source_controls={row:[w for w in self.input_panel.winfo_children() if int(w.grid_info().get('row',-1))==row] for row in [0,2,4]}
@@ -77,23 +77,37 @@ class Editor:
         pending=[dict(r) for r in self.project['rows'] if not r.get('zh','').strip()]
         if not pending:messagebox.showinfo('已完成','没有未翻译条目');return
         self.ai_cancel.clear();self.ai_progress.configure(maximum=len(pending),value=0);config=dict(self.api);self.translation.configure(state='disabled')
-        def apply_batch(values,done,total):
-            for r in self.project['rows']:
-                if r['key'] in values and not r['zh'].strip():r['zh']=values[r['key']];r['translation_origin']='ai_draft'
-            self.ai_progress.configure(value=done);self.refresh();self.status.set(f'AI 已译 {done}/{total} 条；已生成译文为待复核草稿。')
-            if self.project_file:core.save_project(self.project,self.project_file)
-        def on_batch(values,done,total):self.root.after(0,lambda:self.apply_ai_batch(apply_batch,values,done,total))
+        next_job=self.job_id+1
+        def on_batch(values,done,total):self.events.put((next_job,self.apply_ai_batch,(values,done,total)))
         self.run(lambda:ai.translate(pending,config,on_batch,self.ai_cancel),lambda report:(self.refresh(),self.status.set(f"AI {'已停止' if report['cancelled'] else '翻译完成'}：{report['translated']}/{report['total']} 条；请复核并保存工程。")))
-    def apply_ai_batch(self,callback,values,done,total):
-        callback(values,done,total)
-        if self.selected is not None:
-            self.translation.configure(state='normal');self.translation.delete('1.0','end');self.translation.insert('1.0',self.project['rows'][self.selected]['zh']);self.translation.configure(state='disabled' if self.busy else 'normal')
+        self.status.set(f'AI 正在翻译：0/{len(pending)} 条；每批完成后刷新，可选择条目查看。')
+    def apply_ai_batch(self,values,done,total):
+        first=None
+        for index,r in enumerate(self.project['rows']):
+            if r['key'] in values and not r['zh'].strip():
+                r['zh']=values[r['key']];r['translation_origin']='ai_draft'
+                if first is None:first=index
+        if self.selected is None and first is not None:self.selected=first
+        self.refresh()
+        if self.selected is not None:self.show_row(self.selected)
+        self.ai_progress.configure(value=done);self.status.set(f'AI 已译 {done}/{total} 条；可边译边查看，译文为待复核草稿。')
+        if self.project_file:core.save_project(self.project,self.project_file)
+    def drain_events(self):
+        for _ in range(100):
+            try:job,callback,args=self.events.get_nowait()
+            except queue.Empty:break
+            if job!=self.job_id:continue
+            try:callback(*args)
+            except Exception as error:
+                self.ai_cancel.set();self.job_id+=1;self.finished(lambda value:None,None,str(error))
+    def poll_events(self):
+        self.drain_events();self.root.after(50,self.poll_events)
     def run(self,task,done):
         if self.busy:return
-        self.busy=True;self.status.set('处理中，请稍候…')
+        self.busy=True;self.job_id+=1;job=self.job_id;self.status.set('处理中，请稍候…')
         def work():
-            try:value=task();self.root.after(0,lambda:self.finished(done,value,None))
-            except Exception as exc:self.root.after(0,lambda error=str(exc):self.finished(done,None,error))
+            try:value=task();self.events.put((job,self.finished,(done,value,None)))
+            except Exception as exc:self.events.put((job,self.finished,(done,None,str(exc))))
         threading.Thread(target=work,daemon=True).start()
     def finished(self,done,value,error):
         self.busy=False;self.translation.configure(state='normal')
@@ -118,23 +132,30 @@ class Editor:
         if not self.guard() or self.selected is None:return
         self.project['rows'][self.selected]['zh']=self.translation.get('1.0','end-1c');self.refresh()
     def commit(self):
-        if self.project and self.selected is not None:self.project['rows'][self.selected]['zh']=self.translation.get('1.0','end-1c')
+        if not self.busy and self.project and self.selected is not None:self.project['rows'][self.selected]['zh']=self.translation.get('1.0','end-1c')
         if self.project:self.project.update(mod_id=self.mod_id.get(),title=self.title.get(),original_mod_url=self.original_url.get())
     def refresh(self,reset=False):
         if self.project is None:return
         if reset:self.page=0
         query=self.search.get().casefold();matches=[i for i,r in enumerate(self.project['rows']) if (not self.only_empty.get() or not r['zh'].strip()) and (not query or query in (r['key']+' '+r['source']+' '+r['zh']).casefold())];last=max(0,(len(matches)-1)//250);self.page=min(max(self.page,0),last)
-        self.tree.delete(*self.tree.get_children())
-        for i in matches[self.page*250:(self.page+1)*250]:
-            r=self.project['rows'][i];self.tree.insert('', 'end',iid=str(i),values=(r['key'],r['source'].replace('\n',' ')[:160],r['zh'].replace('\n',' ')[:160]))
+        visible=matches[self.page*250:(self.page+1)*250];wanted={str(i) for i in visible};existing=set(self.tree.get_children())
+        for iid in existing-wanted:self.tree.delete(iid)
+        for position,i in enumerate(visible):
+            r=self.project['rows'][i];values=(r['key'],r['source'].replace('\n',' ')[:160],r['zh'].replace('\n',' ')[:160]);iid=str(i)
+            if iid in existing:self.tree.item(iid,values=values)
+            else:self.tree.insert('', 'end',iid=iid,values=values)
+            self.tree.move(iid,'',position)
         translated=sum(bool(r['zh'].strip()) for r in self.project['rows']);self.status.set(f"共 {len(self.project['rows'])} 条，已译 {translated} 条；筛选 {len(matches)} 条，第 {self.page+1}/{last+1} 页。")
     def turn(self,delta):
         if self.guard():self.commit();self.page+=delta;self.refresh()
     def select(self,event=None):
-        if self.busy:return
         sel=self.tree.selection()
         if not sel:return
-        self.commit();self.selected=int(sel[0]);r=self.project['rows'][self.selected];self.source.configure(state='normal');self.source.delete('1.0','end');self.source.insert('1.0',r['source']);self.source.configure(state='disabled');self.translation.delete('1.0','end');self.translation.insert('1.0',r['zh'])
+        index=int(sel[0])
+        if index==self.selected:return
+        self.commit();self.selected=index;self.show_row(index)
+    def show_row(self,index):
+        r=self.project['rows'][index];self.source.configure(state='normal');self.source.delete('1.0','end');self.source.insert('1.0',r['source']);self.source.configure(state='disabled');self.translation.configure(state='normal');self.translation.delete('1.0','end');self.translation.insert('1.0',r['zh']);self.translation.configure(state='disabled' if self.busy else 'normal')
     def save(self):
         if not self.guard():return
         self.commit();p=self.project_file or filedialog.asksaveasfilename(defaultextension='.json',filetypes=[('翻译工程','*.json')])

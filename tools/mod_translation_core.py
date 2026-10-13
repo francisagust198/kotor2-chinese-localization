@@ -3,7 +3,7 @@ import collections,csv,gzip,hashlib,json,os,shutil,struct,sys,tempfile,zipfile
 from pathlib import Path
 from save_cache_converter import GFF
 from tlk_overlay import TextTable,TOKENS,encode,canonical_mapping,compile_pack
-VERSION='0.2.0'
+VERSION='0.2.1'
 EXTENSIONS={'.uti','.utc','.dlg','.utp','.utm','.utt','.uts','.ute','.utd','.utw','.are','.git','.ifo','.gui','.gff','.jrl','.bic'}
 def sha(b):return hashlib.sha256(b).hexdigest()
 def resource_path(name):

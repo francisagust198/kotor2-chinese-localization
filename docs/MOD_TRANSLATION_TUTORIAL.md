@@ -4,7 +4,7 @@
 
 ## 下载工具
 
-- [Windows 可视化工具 0.2.0（ZIP）](../downloads/KOTOR2_MODTranslator_020.zip)：解压后运行 **KOTOR2_MOD汉化工作台.exe**，无需安装 Python。
+- [Windows 可视化工具 0.2.1（ZIP）](../downloads/KOTOR2_MODTranslator_021.zip)：解压后运行 **KOTOR2_MOD汉化工作台.exe**，无需安装 Python。
 - [工具源码](../tools/mod_translation_gui.py)，Python 3.10+ 用户可在仓库根目录运行 `python tools/mod_translation_gui.py`。
 - [简体中文本地化 MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=3816191703)
 - [共享原生组件](https://steamcommunity.com/sharedfiles/filedetails/?id=3816551034)：独立 TLK 译文包需要支持自动挂载的接口候选。
@@ -40,6 +40,8 @@
 可调整每批条数（1–20）、翻译提示词，或启用服务支持的 JSON 模式。密钥默认仅本次会话使用；勾选记住时用 Windows DPAPI 按当前系统用户加密保存。配置位于本机用户目录，不会进入工程、独立MOD或ZIP。
 
 点击 **AI 一键翻译未译条目**，会将未翻译原文发送到你配置的服务。请求可能产生服务商费用。已有译文不会覆盖；每批会校验条目标识、JSON结果和变量。生成结果标为 AI 草稿，需人工复核姓名、语境和性别；缺字会在打包时阻止输出。
+
+0.2.1 修复实时刷新：每批请求完成后立即更新列表、选中条目的译文与进度；翻译期间可以切换条目只读查看。保留当前选中状态，不重建整张列表。若勾选“只显示未翻译”，完成的条目会从筛选列表移除，当前译文仍在下方显示。刷新以批次为单位，不是逐字流式输出；较长文本可在API设置中减小每批条数。
 
 **停止 AI** 会在当前请求结束后停止后续批次。已完成批次保留；已有工程文件时每批保存进度。遇到 API 错误时不要重建工程，检查配置后继续即可。工具没有替你提供 API 账号或额度，也不会用项目人员的密钥替你调用。
 

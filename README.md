@@ -18,7 +18,7 @@
 
 ## MOD 汉化工作台
 
-[下载 Windows 工作台 0.2.0](downloads/KOTOR2_MODTranslator_020.zip)，无需 Python。支持 MOD 汉化 / 原版文本修正二选一、手动与 CSV 编辑、配置兼容 API 的 AI 草稿翻译，并打包为独立汉化 MOD。详见 [教程](docs/MOD_TRANSLATION_TUTORIAL.md)。共享文本接口仍为候选，实机验收尚待完成。
+[下载 Windows 工作台 0.2.1](downloads/KOTOR2_MODTranslator_021.zip)，无需 Python。支持 MOD 汉化 / 原版文本修正二选一、手动与 CSV 编辑、配置兼容 API 的 AI 草稿翻译，并打包为独立汉化 MOD。详见 [教程](docs/MOD_TRANSLATION_TUTORIAL.md)。共享文本接口仍为候选，实机验收尚待完成。
 
 ## 仓库内容
 
