@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "version": "0.5.19-skill-layout",
+  "version": "0.5.20-untranslated-fix",
   "records": 153698,
   "tlk_records_verified": {
     "base": 136329,
@@ -8,5 +8,7 @@
   },
   "gff_locations_verified": 7022,
   "fonts_gui_map_preserved": true,
-  "gameplay_test": false
+  "gameplay_test": false,
+  "untranslated_fix_records": 163,
+  "stage_verified": true
 }

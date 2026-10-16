@@ -6630,7 +6630,7 @@
 {"id": "tlk:base:42753", "source_sha256": "76964a0fc642789a970fc707295486e770c573c9c3f4ec8249604d193ec3d759", "zh": "HK-47藏匿处 4", "status": "reviewed", "notes": ""}
 {"id": "tlk:base:42754", "source_sha256": "00c174f09a66105107811c960992e075ca6dc7d926f042d6868640844ecb8ec3", "zh": "HK-47藏匿处 0", "status": "reviewed", "notes": ""}
 {"id": "tlk:base:42755", "source_sha256": "57e613b44395a91ceb20a06500406e423f67d184a56a8715848f4a98db4c2a6e", "zh": "统治者护手套", "status": "reviewed", "notes": ""}
-{"id": "tlk:base:42756", "source_sha256": "a9e83e2607b0855f001dea683e67e94b37093cc735ac969720d1f3e780fe8422", "zh": "作为动力护手领域一项巨大技术进步的可运作原型，Dominators 赋予使用者无与伦比的力量与威力。", "status": "reviewed", "notes": ""}
+{"id": "tlk:base:42756", "source_sha256": "a9e83e2607b0855f001dea683e67e94b37093cc735ac969720d1f3e780fe8422", "zh": "作为动力护手领域一项巨大技术进步的可运作原型，统治者护手套 赋予使用者无与伦比的力量与威力。", "status": "reviewed", "notes": "2026-10-17：未汉化文本复核；按英文原文及关联术语修订。"}
 {"id": "tlk:base:42757", "source_sha256": "bc01a29333a82edc17f4641b4c460d292d8f2e07a7f214aa7a25f59dbab317f5", "zh": "卡拉坎护手", "status": "reviewed", "notes": ""}
 {"id": "tlk:base:42758", "source_sha256": "feffd46d9ae0fad96dc0570065dfb7652214b1898359b24003a6840b859cbe0e", "zh": "这些沉重的长手套，是由孤立主义者卡拉坎创造的，几乎本身是一个完整的医疗电脑。他们不断地监视和调整神经冲动，血压，通过使用者的手神经。增加稳定性和整体系统的完整性有很多好处。", "status": "reviewed", "notes": ""}
 {"id": "tlk:base:42759", "source_sha256": "a7352b810ebe47a4dd9a402f51c1cb5ff8536c940e684e6472e7d7e228b78300", "zh": "潜入者手套", "status": "reviewed", "notes": ""}

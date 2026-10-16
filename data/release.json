@@ -1,5 +1,5 @@
 {
-  "version": "0.5.19-skill-layout",
+  "version": "0.5.20-untranslated-fix",
   "codec": "column16_gray4_baseline_v2_altstep",
   "chinese_item": "3816191703",
   "english_mod_item": "1402798020",
@@ -23,14 +23,14 @@
       "translated": 1737
     },
     "gff": {
-      "reviewed": 1095,
+      "reviewed": 1101,
       "translated": 3977,
-      "keep_original": 531
+      "keep_original": 525
     }
   },
   "expected_tlk_bytes": {
     "base": 348494219,
-    "mod": 348839169
+    "mod": 348921605
   },
   "game_exe_sha256": "6a522e71631dcee93467bd2010f3b23d9145326e1e2e89305f13ab104dbbffef",
   "current_map_sha256": "8f5c746c5cf1986ae98b72a19800f2862784e4149a1a781de751340b2363e804",
@@ -103,5 +103,13 @@
     "attributes_numbers_voice_sources_unchanged": true,
     "gui_fonts_unchanged": true,
     "game_validation": "pending"
+  },
+  "untranslated_fix_20261017": {
+    "corrected_records": 163,
+    "tlk_mod": 155,
+    "tlk_base_reference": 1,
+    "gff_groups": 7,
+    "font_map_unchanged": true,
+    "full_gameplay_validation": false
   }
 }
